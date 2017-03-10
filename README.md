@@ -10,7 +10,7 @@ You also can find the [中文](https://github.com/flyingalex/PracticalVim/blob/m
 
 #121 tips
 
-- [x] [1.Meet the Dot Command](#meet-the-dot-command)
+- [x] [1.Meet the Dot Command](tip/tip1.md)
 - [x] [2.Don't Repeat Yourself](#don't-repeat-yourself)
 - [x] [3.Take One Step Back, Then Three Forward](#3.take-one-step-back-then-three-forward)
 - [x] [4.Act,Repear,Reverse](#act-repear-reverse)
