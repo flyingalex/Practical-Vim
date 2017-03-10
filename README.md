@@ -11,7 +11,7 @@ You also can find the [中文](https://github.com/flyingalex/PracticalVim/blob/m
 #121 tips
 
 - [x] [1.Meet the Dot Command](#meet-the-dot-command)
-- [ ] [2.Don't Repeat Yourself](#don't-repeat-yourself)
+- [x] [2.Don't Repeat Yourself](#don't-repeat-yourself)
 - [ ] 3.Take One Step Back, Then Three Forward
 - [ ] 4.Act,Repear,Reverse
 - [ ] 5.Find and Replace by Hand
@@ -23,3 +23,25 @@ You also can find the [中文](https://github.com/flyingalex/PracticalVim/blob/m
 
 ###Don't Repeat Yourself
 
+Some keys can do many things:
+
+1.Don't use `c$`
+> C, Delete from the cursor position to the end of the line.
+
+2.Don't use `cl`
+> s, Delete [count] characters [into register x] and start insert (s stands for Substitute).
+
+3.Don't use `^s`
+> S, Delete [count] lines [into register x] and start insert.
+
+4.Don't use `^i`
+> I, Insert text before the first non-blank in the line [count] times.
+
+5.Don't use `$a`
+>A, Append text at the end of the line [count] times.
+
+6.Don't use `A<CR>`
+>o, Begin a new line below the cursor and insert text, repeat [count] times.
+
+7.Don't use `ko`
+>O, Begin a new line above the cursor and insert text, repeat [count] times.
