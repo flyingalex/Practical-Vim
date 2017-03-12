@@ -1,12 +1,12 @@
 #Vim实用技巧
 
-我阅读了*[Vim 实用技巧](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00JONY3W0/ref=sr_1_2?ie=UTF8&qid=1489300398&sr=8-2&keywords=Vim+%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7)*,觉得它非常好，所以想将书中的所有的技巧做个笔记。
+我阅读了*[Vim实用技巧](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00JONY3W0/ref=sr_1_2?ie=UTF8&qid=1489300398&sr=8-2&keywords=Vim+%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7)*,觉得它非常好，所以想将书中的所有的技巧做个笔记。
 
 请先去看看这篇文章：[Seven habits of effective text editing](http://www.moolenaar.net/habits.html),对vim的学习很有帮助。
 
 对于vim的初学者来说，可以在命令行里跑`vimtutor`(如果没有这个命令请先安装vim),望你能乐在其中。
 
-你也可以在这里找到[English 版](README.md)的。
+你也可以在这里找到[English版](README.md)的。
 
 #121 技巧
 
