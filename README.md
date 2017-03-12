@@ -19,12 +19,12 @@ You also can find the [中文](Chinese.md) version
 - [x] [6. Meet the Dot Formula](tips/tip6.md)
 
 ##2. Normal Mode  
-- [ ] [7. Pause with Your Brush Off the Page](tips/tip.md)
-- [ ] [8. Chunk Your Undos](tips/tip.md)
-- [ ] [9. Compose Repeatable Changes](tips/tip.md)
-- [ ] [10. Use Counts to Do Simple Arithmetic](tips/tip.md)
-- [ ] [11. Don’t Count If You Can Repeat](tips/tip.md)
-- [ ] [12. Combine and Conquer](tips/tip.md)
+- [x] [7. Pause with Your Brush Off the Page](tips/tip7.md)
+- [x] [8. Chunk Your Undos](tips/tip8.md)
+- [x] [9. Compose Repeatable Changes](tips/tip9.md)
+- [x] [10. Use Counts to Do Simple Arithmetic](tips/tip10.md)
+- [x] [11. Don’t Count If You Can Repeat](tips/tip11.md)
+- [x] [12. Combine and Conquer](tips/tip12.md)
 
 ##3. Insert Mode 
 - [ ] [13. Make Corrections Instantly from Insert Mode](tips/tip.md)
