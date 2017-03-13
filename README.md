@@ -27,13 +27,13 @@ You also can find the [中文](Chinese.md) version
 - [x] [12. Combine and Conquer](tips/tip12.md)
 
 ##3. Insert Mode 
-- [ ] [13. Make Corrections Instantly from Insert Mode](tips/tip.md)
-- [ ] [14. Get Back to Normal Mode](tips/tip.md)
-- [ ] [15. Paste from a Register Without Leaving Insert Mode](tips/tip.md)
-- [ ] [16. Do Back-of-the-Envelope Calculations in Place](tips/tip.md)
-- [ ] [17. Insert Unusual Characters by Character Code](tips/tip.md)
-- [ ] [18. Insert Unusual Characters by Digraph](tips/tip.md)
-- [ ] [19. Overwrite Existing Text with Replace Mode](tips/tip.md)
+- [x] [13. Make Corrections Instantly from Insert Mode](tips/tip.md)
+- [x] [14. Get Back to Normal Mode](tips/tip.md)
+- [x] [15. Paste from a Register Without Leaving Insert Mode](tips/tip.md)
+- [x] [16. Do Back-of-the-Envelope Calculations in Place](tips/tip.md)
+- [x] [17. Insert Unusual Characters by Character Code](tips/tip.md)
+- [x] [18. Insert Unusual Characters by Digraph](tips/tip.md)
+- [x] [19. Overwrite Existing Text with Replace Mode](tips/tip.md)
 
 ##4. Visual Mode
 - [ ] [20. Grok Visual Mode](tips/tip.md)
