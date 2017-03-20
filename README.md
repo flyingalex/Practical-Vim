@@ -27,17 +27,17 @@ You also can find the [中文](Chinese.md) version
 - [x] [12. Combine and Conquer](tips/tip12.md)
 
 ##3. Insert Mode 
-- [x] [13. Make Corrections Instantly from Insert Mode](tips/tip.md)
-- [x] [14. Get Back to Normal Mode](tips/tip.md)
-- [x] [15. Paste from a Register Without Leaving Insert Mode](tips/tip.md)
-- [x] [16. Do Back-of-the-Envelope Calculations in Place](tips/tip.md)
-- [x] [17. Insert Unusual Characters by Character Code](tips/tip.md)
-- [x] [18. Insert Unusual Characters by Digraph](tips/tip.md)
-- [x] [19. Overwrite Existing Text with Replace Mode](tips/tip.md)
+- [x] [13. Make Corrections Instantly from Insert Mode](tips/tip13.md)
+- [x] [14. Get Back to Normal Mode](tips/tip14.md)
+- [x] [15. Paste from a Register Without Leaving Insert Mode](tips/tip15.md)
+- [x] [16. Do Back-of-the-Envelope Calculations in Place](tips/tip16.md)
+- [x] [17. Insert Unusual Characters by Character Code](tips/tip17.md)
+- [x] [18. Insert Unusual Characters by Digraph](tips/tip18.md)
+- [x] [19. Overwrite Existing Text with Replace Mode](tips/tip19.md)
 
 ##4. Visual Mode
-- [ ] [20. Grok Visual Mode](tips/tip.md)
-- [ ] [21. Define a Visual Selection](tips/tip.md)
+- [x] [20. Grok Visual Mode](tips/tip20.md)
+- [x] [21. Define a Visual Selection](tips/tip21.md)
 - [ ] [22. Repeat Line-Wise Visual Commands](tips/tip.md)
 - [ ] [23. Prefer Operators to Visual Commands Where Possible](tips/tip.md)
 - [ ] [24. Edit Tabular Data with Visual-Block Mode](tips/tip.md)
