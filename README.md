@@ -1,4 +1,4 @@
-#PracticalVim
+# PracticalVim
 
 I read the book *[Practical Vim: Edit Text at the Speed of Thought](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275/ref=sr_1_1?ie=UTF8&qid=1488958924&sr=8-1&keywords=practical-vim)*, it's pretty awesome! so I want to do a note for this book.I will write all the tips in this article relared to the book.
 
@@ -8,9 +8,9 @@ The beginner tutorial for vim, run command `vimtutor` in your terminal(install v
 
 You also can find the [中文](Chinese.md) version
 
-#121 tips
+# 121 tips
 
-##1.The Vim Way
+## 1.The Vim Way
 - [x] [1. Meet the Dot Command](tips/tip1.md)
 - [x] [2. Don't Repeat Yourself](tips/tip2.md)
 - [x] [3. Take One Step Back, Then Three Forward](tips/tip3.md)
