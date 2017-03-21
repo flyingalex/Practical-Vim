@@ -38,11 +38,11 @@ You also can find the [中文](Chinese.md) version
 ## 4. Visual Mode
 - [x] [20. Grok Visual Mode](tips/tip20.md)
 - [x] [21. Define a Visual Selection](tips/tip21.md)
-- [ ] [22. Repeat Line-Wise Visual Commands](tips/tip.md)
-- [ ] [23. Prefer Operators to Visual Commands Where Possible](tips/tip.md)
-- [ ] [24. Edit Tabular Data with Visual-Block Mode](tips/tip.md)
-- [ ] [25. Change Columns of Text](tips/tip.md)
-- [ ] [26. Append After a Ragged Visual Block](tips/tip.md)
+- [x] [22. Repeat Line-Wise Visual Commands](tips/tip22.md)
+- [x] [23. Prefer Operators to Visual Commands Where Possible](tips/tip23.md)
+- [x] [24. Edit Tabular Data with Visual-Block Mode](tips/tip24.md)
+- [x] [25. Change Columns of Text](tips/tip25.md)
+- [x] [26. Append After a Ragged Visual Block](tips/tip26.md)
 
 ## 5. Command-Line Mode
 - [ ] [27. Meet Vim’s Command Line](tips/tip.md)
