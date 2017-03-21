@@ -10,7 +10,7 @@ You also can find the [中文](Chinese.md) version
 
 # 121 tips
 
-## 1.The Vim Way
+##  1.The Vim Way
 - [x] [1. Meet the Dot Command](tips/tip1.md)
 - [x] [2. Don't Repeat Yourself](tips/tip2.md)
 - [x] [3. Take One Step Back, Then Three Forward](tips/tip3.md)
@@ -18,7 +18,7 @@ You also can find the [中文](Chinese.md) version
 - [x] [5. Find and Replace by Hand](tips/tip5.md)
 - [x] [6. Meet the Dot Formula](tips/tip6.md)
 
-##2. Normal Mode  
+## 2. Normal Mode  
 - [x] [7. Pause with Your Brush Off the Page](tips/tip7.md)
 - [x] [8. Chunk Your Undos](tips/tip8.md)
 - [x] [9. Compose Repeatable Changes](tips/tip9.md)
@@ -26,7 +26,7 @@ You also can find the [中文](Chinese.md) version
 - [x] [11. Don’t Count If You Can Repeat](tips/tip11.md)
 - [x] [12. Combine and Conquer](tips/tip12.md)
 
-##3. Insert Mode 
+## 3. Insert Mode 
 - [x] [13. Make Corrections Instantly from Insert Mode](tips/tip13.md)
 - [x] [14. Get Back to Normal Mode](tips/tip14.md)
 - [x] [15. Paste from a Register Without Leaving Insert Mode](tips/tip15.md)
@@ -35,7 +35,7 @@ You also can find the [中文](Chinese.md) version
 - [x] [18. Insert Unusual Characters by Digraph](tips/tip18.md)
 - [x] [19. Overwrite Existing Text with Replace Mode](tips/tip19.md)
 
-##4. Visual Mode
+## 4. Visual Mode
 - [x] [20. Grok Visual Mode](tips/tip20.md)
 - [x] [21. Define a Visual Selection](tips/tip21.md)
 - [ ] [22. Repeat Line-Wise Visual Commands](tips/tip.md)
@@ -44,7 +44,7 @@ You also can find the [中文](Chinese.md) version
 - [ ] [25. Change Columns of Text](tips/tip.md)
 - [ ] [26. Append After a Ragged Visual Block](tips/tip.md)
 
-##5. Command-Line Mode
+## 5. Command-Line Mode
 - [ ] [27. Meet Vim’s Command Line](tips/tip.md)
 - [ ] [28. Execute a Command on One or More Consecutive Lines](tips/tip.md)
 - [ ] [29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands](tips/tip.md)
@@ -55,21 +55,21 @@ You also can find the [中文](Chinese.md) version
 - [ ] [34. Recall Commands from History](tips/tip.md)
 - [ ] [35. Run Commands in the Shell](tips/tip.md)
 
-##6. Manage Multiple Files
+## 6. Manage Multiple Files
 - [ ] [36. Track Open Files with the Buffer List](tips/tip.md)
 - [ ] [37. Group Buffers into a Collection with the Argument List](tips/tip.md)
 - [ ] [38. Manage Hidden Files](tips/tip.md)
 - [ ] [39. Divide Your Workspace into Split Windows](tips/tip.md)
 - [ ] [40. Organize Your Window Layouts with Tab Pages](tips/tip.md)
 
-##7. Open Files and Save Them to Disk
+## 7. Open Files and Save Them to Disk
 - [ ] [41. Open a File by Its Filepath Using ‘:edit’](tips/tip.md)
 - [ ] [42. Open a File by Its Filename Using ‘:find’](tips/tip.md)
 - [ ] [43. Explore the File System with netrw](tips/tip.md)
 - [ ] [44. Save Files to Nonexistent Directories](tips/tip.md)
 - [ ] [45. Save a File as the Super User](tips/tip.md)
 
-##8. Navigate Inside Files with Motions
+## 8. Navigate Inside Files with Motions
 - [ ] [46. Keep Your Fingers on the Home Row](tips/tip.md)
 - [ ] [47. Distinguish Between Real Lines and Display Lines](tips/tip.md)
 - [ ] [48. Move Word-Wise](tips/tip.md)
@@ -80,20 +80,20 @@ You also can find the [中文](Chinese.md) version
 - [ ] [53. Mark Your Place and Snap Back to It](tips/tip.md)
 - [ ] [54. Jump Between Matching Parentheses](tips/tip.md)
 
-##9. Navigate Between Files with Jumps
+## 9. Navigate Between Files with Jumps
 - [ ] [55. Traverse the Jump List](tips/tip.md)
 - [ ] [56. Traverse the Change List](tips/tip.md)
 - [ ] [57. Jump to the Filename Under the Cursor](tips/tip.md)
 - [ ] [58. Snap Between Files Using Global Marks](tips/tip.md)
 
-##10. Copy and Paste
+## 10. Copy and Paste
 - [ ] [59. Delete, Yank, and Put with Vim’s Unnamed Register](tips/tip.md)
 - [ ] [60. Grok Vim’s Registers](tips/tip.md)
 - [ ] [61. Replace a Visual Selection with a Register](tips/tip.md)
 - [ ] [62. Paste from a Register](tips/tip.md)
 - [ ] [63. Interact with the System Clipboard](tips/tip.md)
 
-##11. Macros
+## 11. Macros
 - [ ] [64. Record and Execute a Macro](tips/tip.md)
 - [ ] [65. Normalize, Strike, Abort](tips/tip.md)
 - [ ] [66. Play Back with a Count](tips/tip.md)
@@ -103,7 +103,7 @@ You also can find the [中文](Chinese.md) version
 - [ ] [70. Evaluate an Iterator to Number Items in a List](tips/tip.md)
 - [ ] [71. Edit the Contents of a Macro](tips/tip.md)
 
-##12. Matching Patterns and Literals
+## 12. Matching Patterns and Literals
 - [ ] [72. Tune the Case Sensitivity of Search Patterns](tips/tip.md)
 - [ ] [73. Use the \v Pattern Switch for Regex Searches](tips/tip.md)
 - [ ] [74. Use the \V Literal Switch for Verbatim Searches](tips/tip.md)
@@ -112,7 +112,7 @@ You also can find the [中文](Chinese.md) version
 - [ ] [77. Stake the Boundaries of a Match](tips/tip.md)
 - [ ] [78. Escape Problem Characters](tips/tip.md)
 
-##13. Search
+## 13. Search
 - [ ] [79. Meet the Search Command](tips/tip.md)
 - [ ] [80. Highlight Search Matches](tips/tip.md)
 - [ ] [81. Preview the First Match Before Execution](tips/tip.md)
@@ -122,7 +122,7 @@ You also can find the [中文](Chinese.md) version
 - [ ] [85. Create Complex Patterns by Iterating upon Search History](tips/tip.md)
 - [ ] [86. Search for the Current Visual Selection](tips/tip.md)
 
-##14. Substitution
+## 14. Substitution
 - [ ] [87. Meet the Substitute Command](tips/tip.md)
 - [ ] [88. Find and Replace Every Match in a File](tips/tip.md)
 - [ ] [89. Eyeball Each Substitution](tips/tip.md)
@@ -134,29 +134,29 @@ You also can find the [中文](Chinese.md) version
 - [ ] [95. Swap Two or More Words](tips/tip.md)
 - [ ] [96. Find and Replace Across Multiple Files](tips/tip.md)
 
-##15. Global Commands
+## 15. Global Commands
 - [ ] [97. Meet the Global Command](tips/tip.md)
 - [ ] [98. Delete Lines Containing a Pattern](tips/tip.md)
 - [ ] [99. Collect TODO Items in a Register](tips/tip.md)
 - [ ] [100. Alphabetize the Properties of Each Rule in a CSS File](tips/tip.md)
 
-##16. Index and Navigate Source Code with ctags
+## 16. Index and Navigate Source Code with ctags
 - [ ] [101. Meet ctags](tips/tip.md)
 - [ ] [102. Configure Vim to Work with ctags](tips/tip.md)
 - [ ] [103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands](tips/tip.md)
 
-##17. Compile Code and Navigate Errors with the Quickfix List 
+## 17. Compile Code and Navigate Errors with the Quickfix List 
 - [ ] [104. Compile Code Without Leaving Vim](tips/tip.md)
 - [ ] [105. Browse the Quickfix List](tips/tip.md)
 - [ ] [106. Recall Results from a Previous Quickfix List](tips/tip.md)
 - [ ] [107. Customize the External Compiler](tips/tip.md)
 
-##18. Search Project-Wide with grep, vimgrep, and Others 
+## 18. Search Project-Wide with grep, vimgrep, and Others 
 - [ ] [108. Call grep Without Leaving Vim](tips/tip.md)
 - [ ] [109. Customize the grep Program](tips/tip.md)
 - [ ] [110. Grep with Vim’s Internal Search Engine](tips/tip.md)
 
-##19. Dial X for Autocompletion
+## 19. Dial X for Autocompletion
 - [ ] [111. Meet Vim’s Keyword Autocompletion](tips/tip.md)
 - [ ] [112. Work with the Autocomplete Pop-Up Menu](tips/tip.md)
 - [ ] [113. Understand the Source of Keywords](tips/tip.md)
@@ -165,7 +165,7 @@ You also can find the [中文](Chinese.md) version
 - [ ] [116. Autocomplete Filenames](tips/tip.md)
 - [ ] [117. Autocomplete with Context Awareness](tips/tip.md)
 
-##20. Find and Fix Typos with Vim’s Spell Checker
+## 20. Find and Fix Typos with Vim’s Spell Checker
 - [ ] [118. Spell Check Your Work](tips/tip.md)
 - [ ] [119. Use Alternate Spelling Dictionaries](tips/tip.md)
 - [ ] [120. Add Words to the Spell File](tips/tip.md)
