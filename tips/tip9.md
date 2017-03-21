@@ -1,4 +1,4 @@
-###9. Compose Repeatable Changes
+### 9.Compose Repeatable Changes
 
 >Compose your changes in such a way that they can be repeated with the dot command.
 

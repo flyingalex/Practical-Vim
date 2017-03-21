@@ -1,4 +1,4 @@
-###1.Meet the Dot Command
+### 1.Meet the Dot Command
 
 `.` means repeat the last change.When you do delete,move,or replace, if you want to do the last operation again, you can just press `.`.You also can use it to repeat the operation like this:
 

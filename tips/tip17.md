@@ -1,4 +1,4 @@
-###17. Insert Unusual Characters by Character Code
+### 17. Insert Unusual Characters by Character Code
 
 |Keystrokes | Effect |
 |-----------|--------|

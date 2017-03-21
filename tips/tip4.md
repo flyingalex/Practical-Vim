@@ -1,4 +1,4 @@
-###4.Act, Repear, Reverse
+### 4.Act, Repear, Reverse
 
 Edition means change and move all the time.If we can just do them one time,and then repeat them,it will be very effective.But sometimes we also will make a mistake when we repeat them, so undo a operation is very important.Vim provide some operations for this.
 

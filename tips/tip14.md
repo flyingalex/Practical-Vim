@@ -1,4 +1,4 @@
-###14. Get Back to Normal Mode
+### 14. Get Back to Normal Mode
 
 Three ways back to NORMAL MODE
 

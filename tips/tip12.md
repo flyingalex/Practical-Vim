@@ -1,4 +1,4 @@
-###12. Combine and Conquer
+### 12. Combine and Conquer
 
 > Operator + Motion = Action
 

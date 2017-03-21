@@ -1,4 +1,4 @@
-###20. Grok Visual Mode
+### 20. Grok Visual Mode
 
 In VISUAL MODE,you can use `viw` and `c` to change a word.
 

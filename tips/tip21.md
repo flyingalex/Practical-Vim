@@ -1,4 +1,4 @@
-###21. Define a Visual Selection
+### 21. Define a Visual Selection
 
 There are three modes for VISUAL MODE
 

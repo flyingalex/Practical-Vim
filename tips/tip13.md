@@ -1,4 +1,4 @@
-###13. Make Corrections Instantly from Insert Mode
+### 13. Make Corrections Instantly from Insert Mode
 
 In the insert mode, you can use `Backspace` to delete the wrong words when you in the INSERT MODE.
 
