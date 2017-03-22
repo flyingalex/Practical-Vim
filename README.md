@@ -45,10 +45,10 @@ You also can find the [中文](Chinese.md) version
 - [x] [26. Append After a Ragged Visual Block](tips/tip26.md)
 
 ## 5. Command-Line Mode
-- [ ] [27. Meet Vim’s Command Line](tips/tip.md)
-- [ ] [28. Execute a Command on One or More Consecutive Lines](tips/tip.md)
-- [ ] [29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands](tips/tip.md)
-- [ ] [30. Run Normal Mode Commands Across a Range](tips/tip.md)
+- [x] [27. Meet Vim’s Command Line](tips/tip.md)
+- [x] [28. Execute a Command on One or More Consecutive Lines](tips/tip.md)
+- [x] [29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands](tips/tip.md)
+- [x] [30. Run Normal Mode Commands Across a Range](tips/tip.md)
 - [ ] [31. Repeat the Last Ex Command](tips/tip.md)
 - [ ] [32. Tab-Complete Your Ex Commands](tips/tip.md)
 - [ ] [33. Insert the Current Word at the Command Prompt](tips/tip.md)
