@@ -49,7 +49,7 @@ You also can find the [中文](Chinese.md) version
 - [x] [28. Execute a Command on One or More Consecutive Lines](tips/tip28.md)
 - [x] [29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands](tips/tip29.md)
 - [x] [30. Run Normal Mode Commands Across a Range](tips/tip30.md)
-- [ ] [31. Repeat the Last Ex Command](tips/tip.md)
+- [x] [31. Repeat the Last Ex Command](tips/tip31.md)
 - [ ] [32. Tab-Complete Your Ex Commands](tips/tip.md)
 - [ ] [33. Insert the Current Word at the Command Prompt](tips/tip.md)
 - [ ] [34. Recall Commands from History](tips/tip.md)
