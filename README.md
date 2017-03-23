@@ -49,18 +49,18 @@ You also can find the [中文](Chinese.md) version
 - [x] [28. Execute a Command on One or More Consecutive Lines](tips/tip28.md)
 - [x] [29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands](tips/tip29.md)
 - [x] [30. Run Normal Mode Commands Across a Range](tips/tip30.md)
-- [x] [31. Repeat the Last Ex Command](tips/tip31.md)
-- [ ] [32. Tab-Complete Your Ex Commands](tips/tip.md)
-- [ ] [33. Insert the Current Word at the Command Prompt](tips/tip.md)
-- [ ] [34. Recall Commands from History](tips/tip.md)
-- [ ] [35. Run Commands in the Shell](tips/tip.md)
+- [x] [31. Repeat the Last Ex Command](tips/tip.md)
+- [x] [32. Tab-Complete Your Ex Commands](tips/tip.md)
+- [x] [33. Insert the Current Word at the Command Prompt](tips/tip.md)
+- [x] [34. Recall Commands from History](tips/tip.md)
+- [x] [35. Run Commands in the Shell](tips/tip.md)
 
 ## 6. Manage Multiple Files
-- [ ] [36. Track Open Files with the Buffer List](tips/tip.md)
-- [ ] [37. Group Buffers into a Collection with the Argument List](tips/tip.md)
-- [ ] [38. Manage Hidden Files](tips/tip.md)
-- [ ] [39. Divide Your Workspace into Split Windows](tips/tip.md)
-- [ ] [40. Organize Your Window Layouts with Tab Pages](tips/tip.md)
+- [x] [36. Track Open Files with the Buffer List](tips/tip.md)
+- [x] [37. Group Buffers into a Collection with the Argument List](tips/tip.md)
+- [x] [cktick characters38. Manage Hidden Files](tips/tip.md)
+- [x] [39. Divide Your Workspace into Split Windows](tips/tip.md)
+- [x] [40. Organize Your Window Layouts with Tab Pages](tips/tip.md)
 
 ## 7. Open Files and Save Them to Disk
 - [ ] [41. Open a File by Its Filepath Using ‘:edit’](tips/tip.md)
