@@ -87,11 +87,11 @@ You also can find the [中文](Chinese.md) version
 - [x] [58. Snap Between Files Using Global Marks](tips/tip59.md)
 
 ## 10. Copy and Paste
-- [ ] [59. Delete, Yank, and Put with Vim’s Unnamed Register](tips/tip.md)
-- [ ] [60. Grok Vim’s Registers](tips/tip.md)
-- [ ] [61. Replace a Visual Selection with a Register](tips/tip.md)
-- [ ] [62. Paste from a Register](tips/tip.md)
-- [ ] [63. Interact with the System Clipboard](tips/tip.md)
+- [x] [59. Delete, Yank, and Put with Vim’s Unnamed Register](tips/tip59.md)
+- [x] [60. Grok Vim’s Registers](tips/tip60.md)
+- [x] [61. Replace a Visual Selection with a Register](tips/tip61.md)
+- [x] [62. Paste from a Register](tips/tip62.md)
+- [x] [63. Interact with the System Clipboard](tips/tip63.md)
 
 ## 11. Macros
 - [ ] [64. Record and Execute a Macro](tips/tip.md)
