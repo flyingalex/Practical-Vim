@@ -81,10 +81,10 @@ You also can find the [中文](Chinese.md) version
 - [x] [54. Jump Between Matching Parentheses](tips/tip54.md)
 
 ## 9. Navigate Between Files with Jumps
-- [ ] [55. Traverse the Jump List](tips/tip.md)
-- [ ] [56. Traverse the Change List](tips/tip.md)
-- [ ] [57. Jump to the Filename Under the Cursor](tips/tip.md)
-- [ ] [58. Snap Between Files Using Global Marks](tips/tip.md)
+- [x] [55. Traverse the Jump List](tips/tip55.md)
+- [x] [56. Traverse the Change List](tips/tip56.md)
+- [x] [57. Jump to the Filename Under the Cursor](tips/tip58.md)
+- [x] [58. Snap Between Files Using Global Marks](tips/tip59.md)
 
 ## 10. Copy and Paste
 - [ ] [59. Delete, Yank, and Put with Vim’s Unnamed Register](tips/tip.md)
