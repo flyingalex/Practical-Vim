@@ -2,4 +2,4 @@
 
 >:edit {file}
 
-This command can help you to open file.The file can have absolute path or relative path.
+This command can help you to open file.The file can be absolute path or relative path.
