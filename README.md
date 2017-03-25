@@ -70,15 +70,15 @@ You also can find the [中文](Chinese.md) version
 - [x] [45. Save a File as the Super User](tips/tip45.md)
 
 ## 8. Navigate Inside Files with Motions
-- [ ] [46. Keep Your Fingers on the Home Row](tips/tip.md)
-- [ ] [47. Distinguish Between Real Lines and Display Lines](tips/tip.md)
-- [ ] [48. Move Word-Wise](tips/tip.md)
-- [ ] [49. Find by Character](tips/tip.md)
-- [ ] [50. Search to Navigate](tips/tip.md)
-- [ ] [51. Trace Your Selection with Precision Text Objects](tips/tip.md)
-- [ ] [52. Delete Around, or Change Inside](tips/tip.md)
-- [ ] [53. Mark Your Place and Snap Back to It](tips/tip.md)
-- [ ] [54. Jump Between Matching Parentheses](tips/tip.md)
+- [x] [46. Keep Your Fingers on the Home Row](tips/tip46.md)
+- [x] [47. Distinguish Between Real Lines and Display Lines](tips/tip47.md)
+- [x] [48. Move Word-Wise](tips/tip48.md)
+- [x] [49. Find by Character](tips/tip49.md)
+- [x] [50. Search to Navigate](tips/tip50.md)
+- [x] [51. Trace Your Selection with Precision Text Objects](tips/tip51.md)
+- [x] [52. Delete Around, or Change Inside](tips/tip52.md)
+- [x] [53. Mark Your Place and Snap Back to It](tips/tip53.md)
+- [x] [54. Jump Between Matching Parentheses](tips/tip54.md)
 
 ## 9. Navigate Between Files with Jumps
 - [ ] [55. Traverse the Jump List](tips/tip.md)
