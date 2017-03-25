@@ -63,11 +63,11 @@ You also can find the [中文](Chinese.md) version
 - [x] [40. Organize Your Window Layouts with Tab Pages](tips/tip40.md)
 
 ## 7. Open Files and Save Them to Disk
-- [ ] [41. Open a File by Its Filepath Using ‘:edit’](tips/tip.md)
-- [ ] [42. Open a File by Its Filename Using ‘:find’](tips/tip.md)
-- [ ] [43. Explore the File System with netrw](tips/tip.md)
-- [ ] [44. Save Files to Nonexistent Directories](tips/tip.md)
-- [ ] [45. Save a File as the Super User](tips/tip.md)
+- [x] [41. Open a File by Its Filepath Using ‘:edit’](tips/tip41.md)
+- [x] [42. Open a File by Its Filename Using ‘:find’](tips/tip42.md)
+- [x] [43. Explore the File System with netrw](tips/tip43.md)
+- [x] [44. Save Files to Nonexistent Directories](tips/tip44.md)
+- [x] [45. Save a File as the Super User](tips/tip45.md)
 
 ## 8. Navigate Inside Files with Motions
 - [ ] [46. Keep Your Fingers on the Home Row](tips/tip.md)
