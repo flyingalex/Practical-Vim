@@ -123,16 +123,16 @@ You also can find the [中文](Chinese.md) version
 - [x] [86. Search for the Current Visual Selection](tips/tip86.md)
 
 ## 14. Substitution
-- [ ] [87. Meet the Substitute Command](tips/tip.md)
-- [ ] [88. Find and Replace Every Match in a File](tips/tip.md)
-- [ ] [89. Eyeball Each Substitution](tips/tip.md)
-- [ ] [90. Reuse the Last Search Pattern](tips/tip.md)
-- [ ] [91. Replace with the Contents of a Register](tips/tip.md)
-- [ ] [92. Repeat the Previous Substitute Command](tips/tip.md)
-- [ ] [93. Rearrange CSV Fields Using Submatches](tips/tip.md)
-- [ ] [94. Perform Arithmetic on the Replacement](tips/tip.md)
-- [ ] [95. Swap Two or More Words](tips/tip.md)
-- [ ] [96. Find and Replace Across Multiple Files](tips/tip.md)
+- [x] [87. Meet the Substitute Command](tips/tip87.md)
+- [x] [88. Find and Replace Every Match in a File](tips/tip88.md)
+- [x] [89. Eyeball Each Substitution](tips/tip89.md)
+- [x] [90. Reuse the Last Search Pattern](tips/tip90.md)
+- [x] [91. Replace with the Contents of a Register](tips/tip91.md)
+- [x] [92. Repeat the Previous Substitute Command](tips/tip92.md)
+- [x] [93. Rearrange CSV Fields Using Submatches](tips/tip93.md)
+- [x] [94. Perform Arithmetic on the Replacement](tips/tip94.md)
+- [x] [95. Swap Two or More Words](tips/tip95.md)
+- [x] [96. Find and Replace Across Multiple Files](tips/tip96.md)
 
 ## 15. Global Commands
 - [ ] [97. Meet the Global Command](tips/tip.md)
