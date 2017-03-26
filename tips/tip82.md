@@ -1,4 +1,6 @@
 ### 82. Count the Matches for the Current Pattern
 
-> :%s///gn
+```
+:%s///gn
+```
 That's it.

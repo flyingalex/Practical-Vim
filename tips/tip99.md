@@ -3,6 +3,9 @@
 Two commands.
 
 > qaq
-Eempty the register a
+
+Eempty the register
 
 > :g/TODO/yank A
+
+

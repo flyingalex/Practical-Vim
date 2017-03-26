@@ -8,8 +8,13 @@ An example in the book,downgrade the number of `h` element:
 ```
 
 Command one:
-> /\v\<\/?h\zs\d
+```
+/\v\<\/?h\zs\d
+```
 This command will match the number in the `h` element.
 
-> :%s//\=submatch(0)-1/g
+
+```
+:%s//\=submatch(0)-1/g
+```
 This command,`//` match last used pattern,`submatch(0)` will get the value of match.
