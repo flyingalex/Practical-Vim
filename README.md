@@ -146,27 +146,27 @@ You also can find the [中文](Chinese.md) version
 - [x] [103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands](tips/tip103.md)
 
 ## 17. Compile Code and Navigate Errors with the Quickfix List 
-- [ ] [104. Compile Code Without Leaving Vim](tips/tip.md)
-- [ ] [105. Browse the Quickfix List](tips/tip.md)
-- [ ] [106. Recall Results from a Previous Quickfix List](tips/tip.md)
-- [ ] [107. Customize the External Compiler](tips/tip.md)
+- [x] [104. Compile Code Without Leaving Vim](tips/tip104.md)
+- [x] [105. Browse the Quickfix List](tips/tip105.md)
+- [x] [106. Recall Results from a Previous Quickfix List](tips/tip106.md)
+- [x] [107. Customize the External Compiler](tips/tip107.md)
 
 ## 18. Search Project-Wide with grep, vimgrep, and Others 
-- [ ] [108. Call grep Without Leaving Vim](tips/tip.md)
-- [ ] [109. Customize the grep Program](tips/tip.md)
-- [ ] [110. Grep with Vim’s Internal Search Engine](tips/tip.md)
+- [x] [108. Call grep Without Leaving Vim](tips/tip108.md)
+- [x] [109. Customize the grep Program](tips/tip109.md)
+- [x] [110. Grep with Vim’s Internal Search Engine](tips/tip110.md)
 
 ## 19. Dial X for Autocompletion
-- [ ] [111. Meet Vim’s Keyword Autocompletion](tips/tip.md)
-- [ ] [112. Work with the Autocomplete Pop-Up Menu](tips/tip.md)
-- [ ] [113. Understand the Source of Keywords](tips/tip.md)
-- [ ] [114. Autocomplete Words from the Dictionary](tips/tip.md)
-- [ ] [115. Autocomplete Entire Lines](tips/tip.md)
-- [ ] [116. Autocomplete Filenames](tips/tip.md)
-- [ ] [117. Autocomplete with Context Awareness](tips/tip.md)
+- [x] [111. Meet Vim’s Keyword Autocompletion](tips/tip111.md)
+- [x] [112. Work with the Autocomplete Pop-Up Menu](tips/tip112.md)
+- [x] [113. Understand the Source of Keywords](tips/tip113.md)
+- [x] [114. Autocomplete Words from the Dictionary](tips/tip114.md)
+- [x] [115. Autocomplete Entire Lines](tips/tip115.md)
+- [x] [116. Autocomplete Filenames](tips/tip116.md)
+- [x] [117. Autocomplete with Context Awareness](tips/tip117.md)
 
 ## 20. Find and Fix Typos with Vim’s Spell Checker
-- [ ] [118. Spell Check Your Work](tips/tip.md)
-- [ ] [119. Use Alternate Spelling Dictionaries](tips/tip.md)
-- [ ] [120. Add Words to the Spell File](tips/tip.md)
-- [ ] [121. Fix Spelling Errors from Insert Mode](tips/tip.md)
+- [x] [118. Spell Check Your Work](tips/tip118.md)
+- [x] [119. Use Alternate Spelling Dictionaries](tips/tip119.md)
+- [x] [120. Add Words to the Spell File](tips/tip120.md)
+- [x] [121. Fix Spelling Errors from Insert Mode](tips/tip121.md)
