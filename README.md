@@ -6,7 +6,7 @@ Please read this article first [Seven habits of effective text editing](http://w
 
 The beginner tutorial for vim, run command `vimtutor` in your terminal(install vim fisrt if you don't have this command) and have a fun.
 
-You also can find the [中文](Chinese.md) version
+You also can find the [中文](Chinese.md)(coming soon,maybe) version
 
 # 121 tips
 
