@@ -113,14 +113,14 @@ You also can find the [中文](Chinese.md) version
 - [x] [78. Escape Problem Characters](tips/tip78.md)
 
 ## 13. Search
-- [ ] [79. Meet the Search Command](tips/tip.md)
-- [ ] [80. Highlight Search Matches](tips/tip.md)
-- [ ] [81. Preview the First Match Before Execution](tips/tip.md)
-- [ ] [82. Count the Matches for the Current Pattern](tips/tip.md)
-- [ ] [83. Offset the Cursor to the End of a Search Match](tips/tip.md)
-- [ ] [84. Operate on a Complete Search Match](tips/tip.md)
-- [ ] [85. Create Complex Patterns by Iterating upon Search History](tips/tip.md)
-- [ ] [86. Search for the Current Visual Selection](tips/tip.md)
+- [x] [79. Meet the Search Command](tips/tip79.md)
+- [x] [80. Highlight Search Matches](tips/tip80.md)
+- [x] [81. Preview the First Match Before Execution](tips/tip81.md)
+- [x] [82. Count the Matches for the Current Pattern](tips/tip82.md)
+- [x] [83. Offset the Cursor to the End of a Search Match](tips/tip83.md)
+- [x] [84. Operate on a Complete Search Match](tips/tip84.md)
+- [x] [85. Create Complex Patterns by Iterating upon Search History](tips/tip85.md)
+- [x] [86. Search for the Current Visual Selection](tips/tip86.md)
 
 ## 14. Substitution
 - [ ] [87. Meet the Substitute Command](tips/tip.md)
