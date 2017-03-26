@@ -104,13 +104,13 @@ You also can find the [中文](Chinese.md) version
 - [x] [71. Edit the Contents of a Macro](tips/tip71.md)
 
 ## 12. Matching Patterns and Literals
-- [ ] [72. Tune the Case Sensitivity of Search Patterns](tips/tip.md)
-- [ ] [73. Use the \v Pattern Switch for Regex Searches](tips/tip.md)
-- [ ] [74. Use the \V Literal Switch for Verbatim Searches](tips/tip.md)
-- [ ] [75. Use Parentheses to Capture Submatches](tips/tip.md)
-- [ ] [76. Stake the Boundaries of a Word](tips/tip.md)
-- [ ] [77. Stake the Boundaries of a Match](tips/tip.md)
-- [ ] [78. Escape Problem Characters](tips/tip.md)
+- [x] [72. Tune the Case Sensitivity of Search Patterns](tips/tip72.md)
+- [x] [73. Use the \v Pattern Switch for Regex Searches](tips/tip73.md)
+- [x] [74. Use the \V Literal Switch for Verbatim Searches](tips/tip74.md)
+- [x] [75. Use Parentheses to Capture Submatches](tips/tip75.md)
+- [x] [76. Stake the Boundaries of a Word](tips/tip76.md)
+- [x] [77. Stake the Boundaries of a Match](tips/tip77.md)
+- [x] [78. Escape Problem Characters](tips/tip78.md)
 
 ## 13. Search
 - [ ] [79. Meet the Search Command](tips/tip.md)
