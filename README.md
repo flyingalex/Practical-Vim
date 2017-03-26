@@ -94,14 +94,14 @@ You also can find the [中文](Chinese.md) version
 - [x] [63. Interact with the System Clipboard](tips/tip63.md)
 
 ## 11. Macros
-- [ ] [64. Record and Execute a Macro](tips/tip.md)
-- [ ] [65. Normalize, Strike, Abort](tips/tip.md)
-- [ ] [66. Play Back with a Count](tips/tip.md)
-- [ ] [67. Repeat a Change on Contiguous Lines](tips/tip.md)
-- [ ] [68. Append Commands to a Macro](tips/tip.md)
-- [ ] [69. Act Upon a Collection of Files](tips/tip.md)
-- [ ] [70. Evaluate an Iterator to Number Items in a List](tips/tip.md)
-- [ ] [71. Edit the Contents of a Macro](tips/tip.md)
+- [x] [64. Record and Execute a Macro](tips/tip64.md)
+- [x] [65. Normalize, Strike, Abort](tips/tip65.md)
+- [x] [66. play back with a count](tips/tip66.md)
+- [x] [67. Repeat a Change on Contiguous Lines](tips/tip67.md)
+- [x] [68. Append Commands to a Macro](tips/tip68.md)
+- [x] [69. Act Upon a Collection of Files](tips/tip69.md)
+- [x] [70. Evaluate an Iterator to Number Items in a List](tips/tip70.md)
+- [x] [71. Edit the Contents of a Macro](tips/tip71.md)
 
 ## 12. Matching Patterns and Literals
 - [ ] [72. Tune the Case Sensitivity of Search Patterns](tips/tip.md)
