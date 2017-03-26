@@ -135,15 +135,15 @@ You also can find the [中文](Chinese.md) version
 - [x] [96. Find and Replace Across Multiple Files](tips/tip96.md)
 
 ## 15. Global Commands
-- [ ] [97. Meet the Global Command](tips/tip.md)
-- [ ] [98. Delete Lines Containing a Pattern](tips/tip.md)
-- [ ] [99. Collect TODO Items in a Register](tips/tip.md)
-- [ ] [100. Alphabetize the Properties of Each Rule in a CSS File](tips/tip.md)
+- [x] [97. Meet the Global Command](tips/tip97.md)
+- [x] [98. Delete Lines Containing a Pattern](tips/tip98.md)
+- [x] [99. Collect TODO Items in a Register](tips/tip99.md)
+- [x] [100. Alphabetize the Properties of Each Rule in a CSS File](tips/tip100.md)
 
 ## 16. Index and Navigate Source Code with ctags
-- [ ] [101. Meet ctags](tips/tip.md)
-- [ ] [102. Configure Vim to Work with ctags](tips/tip.md)
-- [ ] [103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands](tips/tip.md)
+- [x] [101. Meet ctags](tips/tip101.md)
+- [x] [102. Configure Vim to Work with ctags](tips/tip102.md)
+- [x] [103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands](tips/tip103.md)
 
 ## 17. Compile Code and Navigate Errors with the Quickfix List 
 - [ ] [104. Compile Code Without Leaving Vim](tips/tip.md)
