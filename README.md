@@ -58,7 +58,7 @@ You also can find the [中文](Chinese.md) version
 ## 6. Manage Multiple Files
 - [x] [36. Track Open Files with the Buffer List](tips/tip36.md)
 - [x] [37. Group Buffers into a Collection with the Argument List](tips/tip37.md)
-- [x] [cktick characters38. Manage Hidden Files](tips/tip38.md)
+- [x] [38. Manage Hidden Files](tips/tip38.md)
 - [x] [39. Divide Your Workspace into Split Windows](tips/tip39.md)
 - [x] [40. Organize Your Window Layouts with Tab Pages](tips/tip40.md)
 
