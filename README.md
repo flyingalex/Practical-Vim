@@ -6,7 +6,7 @@ Please read this article first [Seven habits of effective text editing](http://w
 
 The beginner tutorial for vim, run command `vimtutor` in your terminal(install vim fisrt if you don't have this command) and have a fun.
 
-You also can find the [中文](Chinese.md) version
+You also can find the [中文](Chinese.md)(coming soon,maybe) version
 
 # 121 tips
 
@@ -81,92 +81,92 @@ You also can find the [中文](Chinese.md) version
 - [x] [54. Jump Between Matching Parentheses](tips/tip54.md)
 
 ## 9. Navigate Between Files with Jumps
-- [ ] [55. Traverse the Jump List](tips/tip.md)
-- [ ] [56. Traverse the Change List](tips/tip.md)
-- [ ] [57. Jump to the Filename Under the Cursor](tips/tip.md)
-- [ ] [58. Snap Between Files Using Global Marks](tips/tip.md)
+- [x] [55. Traverse the Jump List](tips/tip55.md)
+- [x] [56. Traverse the Change List](tips/tip56.md)
+- [x] [57. Jump to the Filename Under the Cursor](tips/tip58.md)
+- [x] [58. Snap Between Files Using Global Marks](tips/tip59.md)
 
 ## 10. Copy and Paste
-- [ ] [59. Delete, Yank, and Put with Vim’s Unnamed Register](tips/tip.md)
-- [ ] [60. Grok Vim’s Registers](tips/tip.md)
-- [ ] [61. Replace a Visual Selection with a Register](tips/tip.md)
-- [ ] [62. Paste from a Register](tips/tip.md)
-- [ ] [63. Interact with the System Clipboard](tips/tip.md)
+- [x] [59. Delete, Yank, and Put with Vim’s Unnamed Register](tips/tip59.md)
+- [x] [60. Grok Vim’s Registers](tips/tip60.md)
+- [x] [61. Replace a Visual Selection with a Register](tips/tip61.md)
+- [x] [62. Paste from a Register](tips/tip62.md)
+- [x] [63. Interact with the System Clipboard](tips/tip63.md)
 
 ## 11. Macros
-- [ ] [64. Record and Execute a Macro](tips/tip.md)
-- [ ] [65. Normalize, Strike, Abort](tips/tip.md)
-- [ ] [66. Play Back with a Count](tips/tip.md)
-- [ ] [67. Repeat a Change on Contiguous Lines](tips/tip.md)
-- [ ] [68. Append Commands to a Macro](tips/tip.md)
-- [ ] [69. Act Upon a Collection of Files](tips/tip.md)
-- [ ] [70. Evaluate an Iterator to Number Items in a List](tips/tip.md)
-- [ ] [71. Edit the Contents of a Macro](tips/tip.md)
+- [x] [64. Record and Execute a Macro](tips/tip64.md)
+- [x] [65. Normalize, Strike, Abort](tips/tip65.md)
+- [x] [66. play back with a count](tips/tip66.md)
+- [x] [67. Repeat a Change on Contiguous Lines](tips/tip67.md)
+- [x] [68. Append Commands to a Macro](tips/tip68.md)
+- [x] [69. Act Upon a Collection of Files](tips/tip69.md)
+- [x] [70. Evaluate an Iterator to Number Items in a List](tips/tip70.md)
+- [x] [71. Edit the Contents of a Macro](tips/tip71.md)
 
 ## 12. Matching Patterns and Literals
-- [ ] [72. Tune the Case Sensitivity of Search Patterns](tips/tip.md)
-- [ ] [73. Use the \v Pattern Switch for Regex Searches](tips/tip.md)
-- [ ] [74. Use the \V Literal Switch for Verbatim Searches](tips/tip.md)
-- [ ] [75. Use Parentheses to Capture Submatches](tips/tip.md)
-- [ ] [76. Stake the Boundaries of a Word](tips/tip.md)
-- [ ] [77. Stake the Boundaries of a Match](tips/tip.md)
-- [ ] [78. Escape Problem Characters](tips/tip.md)
+- [x] [72. Tune the Case Sensitivity of Search Patterns](tips/tip72.md)
+- [x] [73. Use the \v Pattern Switch for Regex Searches](tips/tip73.md)
+- [x] [74. Use the \V Literal Switch for Verbatim Searches](tips/tip74.md)
+- [x] [75. Use Parentheses to Capture Submatches](tips/tip75.md)
+- [x] [76. Stake the Boundaries of a Word](tips/tip76.md)
+- [x] [77. Stake the Boundaries of a Match](tips/tip77.md)
+- [x] [78. Escape Problem Characters](tips/tip78.md)
 
 ## 13. Search
-- [ ] [79. Meet the Search Command](tips/tip.md)
-- [ ] [80. Highlight Search Matches](tips/tip.md)
-- [ ] [81. Preview the First Match Before Execution](tips/tip.md)
-- [ ] [82. Count the Matches for the Current Pattern](tips/tip.md)
-- [ ] [83. Offset the Cursor to the End of a Search Match](tips/tip.md)
-- [ ] [84. Operate on a Complete Search Match](tips/tip.md)
-- [ ] [85. Create Complex Patterns by Iterating upon Search History](tips/tip.md)
-- [ ] [86. Search for the Current Visual Selection](tips/tip.md)
+- [x] [79. Meet the Search Command](tips/tip79.md)
+- [x] [80. Highlight Search Matches](tips/tip80.md)
+- [x] [81. Preview the First Match Before Execution](tips/tip81.md)
+- [x] [82. Count the Matches for the Current Pattern](tips/tip82.md)
+- [x] [83. Offset the Cursor to the End of a Search Match](tips/tip83.md)
+- [x] [84. Operate on a Complete Search Match](tips/tip84.md)
+- [x] [85. Create Complex Patterns by Iterating upon Search History](tips/tip85.md)
+- [x] [86. Search for the Current Visual Selection](tips/tip86.md)
 
 ## 14. Substitution
-- [ ] [87. Meet the Substitute Command](tips/tip.md)
-- [ ] [88. Find and Replace Every Match in a File](tips/tip.md)
-- [ ] [89. Eyeball Each Substitution](tips/tip.md)
-- [ ] [90. Reuse the Last Search Pattern](tips/tip.md)
-- [ ] [91. Replace with the Contents of a Register](tips/tip.md)
-- [ ] [92. Repeat the Previous Substitute Command](tips/tip.md)
-- [ ] [93. Rearrange CSV Fields Using Submatches](tips/tip.md)
-- [ ] [94. Perform Arithmetic on the Replacement](tips/tip.md)
-- [ ] [95. Swap Two or More Words](tips/tip.md)
-- [ ] [96. Find and Replace Across Multiple Files](tips/tip.md)
+- [x] [87. Meet the Substitute Command](tips/tip87.md)
+- [x] [88. Find and Replace Every Match in a File](tips/tip88.md)
+- [x] [89. Eyeball Each Substitution](tips/tip89.md)
+- [x] [90. Reuse the Last Search Pattern](tips/tip90.md)
+- [x] [91. Replace with the Contents of a Register](tips/tip91.md)
+- [x] [92. Repeat the Previous Substitute Command](tips/tip92.md)
+- [x] [93. Rearrange CSV Fields Using Submatches](tips/tip93.md)
+- [x] [94. Perform Arithmetic on the Replacement](tips/tip94.md)
+- [x] [95. Swap Two or More Words](tips/tip95.md)
+- [x] [96. Find and Replace Across Multiple Files](tips/tip96.md)
 
 ## 15. Global Commands
-- [ ] [97. Meet the Global Command](tips/tip.md)
-- [ ] [98. Delete Lines Containing a Pattern](tips/tip.md)
-- [ ] [99. Collect TODO Items in a Register](tips/tip.md)
-- [ ] [100. Alphabetize the Properties of Each Rule in a CSS File](tips/tip.md)
+- [x] [97. Meet the Global Command](tips/tip97.md)
+- [x] [98. Delete Lines Containing a Pattern](tips/tip98.md)
+- [x] [99. Collect TODO Items in a Register](tips/tip99.md)
+- [x] [100. Alphabetize the Properties of Each Rule in a CSS File](tips/tip100.md)
 
 ## 16. Index and Navigate Source Code with ctags
-- [ ] [101. Meet ctags](tips/tip.md)
-- [ ] [102. Configure Vim to Work with ctags](tips/tip.md)
-- [ ] [103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands](tips/tip.md)
+- [x] [101. Meet ctags](tips/tip101.md)
+- [x] [102. Configure Vim to Work with ctags](tips/tip102.md)
+- [x] [103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands](tips/tip103.md)
 
 ## 17. Compile Code and Navigate Errors with the Quickfix List 
-- [ ] [104. Compile Code Without Leaving Vim](tips/tip.md)
-- [ ] [105. Browse the Quickfix List](tips/tip.md)
-- [ ] [106. Recall Results from a Previous Quickfix List](tips/tip.md)
-- [ ] [107. Customize the External Compiler](tips/tip.md)
+- [x] [104. Compile Code Without Leaving Vim](tips/tip104.md)
+- [x] [105. Browse the Quickfix List](tips/tip105.md)
+- [x] [106. Recall Results from a Previous Quickfix List](tips/tip106.md)
+- [x] [107. Customize the External Compiler](tips/tip107.md)
 
 ## 18. Search Project-Wide with grep, vimgrep, and Others 
-- [ ] [108. Call grep Without Leaving Vim](tips/tip.md)
-- [ ] [109. Customize the grep Program](tips/tip.md)
-- [ ] [110. Grep with Vim’s Internal Search Engine](tips/tip.md)
+- [x] [108. Call grep Without Leaving Vim](tips/tip108.md)
+- [x] [109. Customize the grep Program](tips/tip109.md)
+- [x] [110. Grep with Vim’s Internal Search Engine](tips/tip110.md)
 
 ## 19. Dial X for Autocompletion
-- [ ] [111. Meet Vim’s Keyword Autocompletion](tips/tip.md)
-- [ ] [112. Work with the Autocomplete Pop-Up Menu](tips/tip.md)
-- [ ] [113. Understand the Source of Keywords](tips/tip.md)
-- [ ] [114. Autocomplete Words from the Dictionary](tips/tip.md)
-- [ ] [115. Autocomplete Entire Lines](tips/tip.md)
-- [ ] [116. Autocomplete Filenames](tips/tip.md)
-- [ ] [117. Autocomplete with Context Awareness](tips/tip.md)
+- [x] [111. Meet Vim’s Keyword Autocompletion](tips/tip111.md)
+- [x] [112. Work with the Autocomplete Pop-Up Menu](tips/tip112.md)
+- [x] [113. Understand the Source of Keywords](tips/tip113.md)
+- [x] [114. Autocomplete Words from the Dictionary](tips/tip114.md)
+- [x] [115. Autocomplete Entire Lines](tips/tip115.md)
+- [x] [116. Autocomplete Filenames](tips/tip116.md)
+- [x] [117. Autocomplete with Context Awareness](tips/tip117.md)
 
 ## 20. Find and Fix Typos with Vim’s Spell Checker
-- [ ] [118. Spell Check Your Work](tips/tip.md)
-- [ ] [119. Use Alternate Spelling Dictionaries](tips/tip.md)
-- [ ] [120. Add Words to the Spell File](tips/tip.md)
-- [ ] [121. Fix Spelling Errors from Insert Mode](tips/tip.md)
+- [x] [118. Spell Check Your Work](tips/tip118.md)
+- [x] [119. Use Alternate Spelling Dictionaries](tips/tip119.md)
+- [x] [120. Add Words to the Spell File](tips/tip120.md)
+- [x] [121. Fix Spelling Errors from Insert Mode](tips/tip121.md)

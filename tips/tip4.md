@@ -4,10 +4,10 @@ Edition means change and move all the time.If we can just do them one time,and t
 
 | Purpose | Operation | Repeatation | Reverse |
 |-----------------------------------|-----------------------|---|---|
-|Make a change 						| {edit} 				| . | u |
-|Scan line for next character		| f{char} / t{char} 	| ;	| , |
-|Scan line for previous character	| F{char} / T{char} 	| ;	| , |
-|Scan document for next match		| /pattern <CR> 		| n | N | 
-|Scan document for previous match	| ?pattern <CR> 		| n | N |
-|Perform substitution				| :s/target/replacement | & | u |
-|Execute a sequence of changes 		| qx{changes}q 			| @x| u |
+|Make a change 						| `{edit}` 				| . | u |
+|Scan line for next character		| `f{char} / t{char}` 	| ;	| , |
+|Scan line for previous character	| `F{char} / T{char}` 	| ;	| , |
+|Scan document for next match		| `/pattern <CR>` 		| n | N | 
+|Scan document for previous match	| `?pattern <CR>` 		| n | N |
+|Perform substitution				| `:s/target/replacement` | & | u |
+|Execute a sequence of changes 		| `qx{changes}q` 			| @x| u |

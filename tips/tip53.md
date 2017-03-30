@@ -7,6 +7,7 @@
 vim also provide some automatic mark.
 
 |Keystrokes | Buffer Contents|
+|-----------|----------------|
 |`` | Position before the last jump within current file |
 |`. | Location of last change|
 |`^ | Location of last insertion|
