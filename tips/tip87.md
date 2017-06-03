@@ -23,7 +23,7 @@ Some special chars in the `pattern`
 |-------|-----------|
 |\r|Insert a carriage return|
 |\t|Insert a tab character|
-|\\|Insert a tab character|
+|`\\`|Insert a tab character|
 |\1|Insert the first submatch|
 |\2|Insert the second submatch (and so on, up to \9)|
 |\0|Insert the entire matched pattern|
