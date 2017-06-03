@@ -9,8 +9,11 @@
 Some `flags` show below:
 
 > 1.The g flag makes the substitute command act globally.
+
 > 2.The c flag gives us the opportunity to confirm or reject each change.
+
 > 3.The n flag suppresses the usual substitute behavior.
+
 > 4.The & flag simply tells Vim to reuse the same flags from the previous substitute command.
 
 
