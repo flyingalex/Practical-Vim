@@ -11,7 +11,7 @@
 # 121 技巧
 
 ## 1.Vim 解决问题的方式
-- [ ] [1. 结识 . 命令](tips_cn/tip1.md)
+- [x] [1. 结识 . 命令](tips_cn/tip1.md)
 - [ ] [2. 不要自我重复](tips_cn/tip2.md)
 - [ ] [3. 以退为进](tips_cn/tip3.md)
 - [ ] [4. 执行、重复、回退](tips_cn/tip4.md)
