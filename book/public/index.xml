@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on PracticalVim</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Introduction on PracticalVim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.Meet the Dot Command</title>
+      <link>http://example.org/docs/tip1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip1/</guid>
+      <description>1.Meet the Dot Command #  . means repeat the last change.When you do delete,move,or replace, if you want to do the last operation again, you can just press ..You also can use it to repeat the operation like this:
+  Press the i become the INSERT MODE, do some modification.
+  Switch the MODE to NORMAL MODE, all the operations between the two modes can use . to repeat.</description>
+    </item>
+    
+    <item>
+      <title>2.Don&#39;t Repeat Yourself</title>
+      <link>http://example.org/docs/tip2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip2/</guid>
+      <description>2.Don&amp;rsquo;t Repeat Yourself #  Some keys can do many things:
+1.Don&amp;rsquo;t use c$
+ C, Delete from the cursor position to the end of the line.
+ 2.Don&amp;rsquo;t use cl
+ s, Delete [count] characters [into register x] and start insert (s stands for Substitute).
+ 3.Don&amp;rsquo;t use ^s
+ S, Delete [count] lines [into register x] and start insert.
+ 4.Don&amp;rsquo;t use ^i
+ I, Insert text before the first non-blank in the line [count] times.</description>
+    </item>
+    
+    <item>
+      <title>3.Take One Step Back, Then Three Forward</title>
+      <link>http://example.org/docs/tip3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip3/</guid>
+      <description>3.Take One Step Back, Then Three Forward #  If you want to add space around a operator in several places,you can just do all things only one time, after that, use ; to move and . to repeat the change which was done in the first time.</description>
+    </item>
+    
+    <item>
+      <title>4.Act, Repear, Reverse</title>
+      <link>http://example.org/docs/tip4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip4/</guid>
+      <description>4.Act, Repear, Reverse #  Edition means change and move all the time.If we can just do them one time,and then repeat them,it will be very effective.But sometimes we also will make a mistake when we repeat them, so undo a operation is very important.Vim provide some operations for this.
+   Purpose Operation Repeatation Reverse     Make a change {edit} . u   Scan line for next character f{char} / t{char} ; ,   Scan line for previous character F{char} / T{char} ; ,   Scan document for next match /pattern &amp;lt;CR&amp;gt; n N   Scan document for previous match ?</description>
+    </item>
+    
+    <item>
+      <title>5.Find and Replace by hand</title>
+      <link>http://example.org/docs/tip5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip5/</guid>
+      <description>5.Find and Replace by hand #  If you want to replace some in all the matched words.You can press * above the word which you want to replace, it will help you to find all the words in the current file, then you can replace it, then you can press n go to next word, if some matched words you don&amp;rsquo;t want to change, just press n.Remember use . after you first change.</description>
+    </item>
+    
+    <item>
+      <title>6.Meet the Dot Formula</title>
+      <link>http://example.org/docs/tip6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip6/</guid>
+      <description>6.Meet the Dot Formula #  Use one key to move and one key to operation.</description>
+    </item>
+    
+    <item>
+      <title>7. Pause with Your Brush Off the Page</title>
+      <link>http://example.org/docs/tip7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip7/</guid>
+      <description>7. Pause with Your Brush Off the Page #  One Line: Use vin like a painter, take more time to think how to code.</description>
+    </item>
+    
+    <item>
+      <title>8.Chunk Your Undos</title>
+      <link>http://example.org/docs/tip8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip8/</guid>
+      <description>8.Chunk Your Undos #  When you use u to undo something, it will undo the last change.So if you stop to write when you finish one sentence,it will make you undo the change easy and elegant.Just try to write undoable chunk.</description>
+    </item>
+    
+    <item>
+      <title>9.Compose Repeatable Changes</title>
+      <link>http://example.org/docs/tip9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip9/</guid>
+      <description>9.Compose Repeatable Changes #   Compose your changes in such a way that they can be repeated with the dot command.
+ Why?Because you can use dot to repeat your change.The examples in the book, there are 3 options to delete a word(dbx, bdw, daw),only the last one is repeatable by dot command.You need to create more command like the last one, which will make your edition effective.</description>
+    </item>
+    
+    <item>
+      <title>10. Use Counts to Do Simple Arithmetic</title>
+      <link>http://example.org/docs/tip10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip10/</guid>
+      <description>10. Use Counts to Do Simple Arithmetic #  &amp;lt;C-a&amp;gt; and &amp;lt;C-x&amp;gt; can use to do computation. &amp;lt;C-a can add one to a number, and &amp;lt;C-x&amp;gt; can minus one.You can press a number before use these computation, which will change the number you want to use in the computation.</description>
+    </item>
+    
+    <item>
+      <title>11. Don’t Count If You Can Repeat</title>
+      <link>http://example.org/docs/tip11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip11/</guid>
+      <description>11. Don’t Count If You Can Repeat #  The author think repeat is better than count,because you can undo every . operation, but you can&amp;rsquo;t undo count operation which will undo all the change.</description>
+    </item>
+    
+    <item>
+      <title>12. Combine and Conquer</title>
+      <link>http://example.org/docs/tip12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip12/</guid>
+      <description>12. Combine and Conquer #   Operator + Motion = Action
+ Many actions consist of operator and motion, you can also define your own operator and motion.Self-defined command can be used with the vim default command.Scan the motion.txt first(run :h motion in command mode) before you are going to write your own command, you can find many useful command in there.</description>
+    </item>
+    
+    <item>
+      <title>13. Make Corrections Instantly from Insert Mode</title>
+      <link>http://example.org/docs/tip13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip13/</guid>
+      <description>13. Make Corrections Instantly from Insert Mode #  In the insert mode, you can use Backspace to delete the wrong words when you in the INSERT MODE.
+There are some other way let you to delete a char or word in the INSERT MODE.
+   Keystrokes Effect     &amp;lt;C-h&amp;gt; Delete back one character (backspace)   &amp;lt;C-w&amp;gt; Delete back one word   &amp;lt;C-u&amp;gt; Delete back to start of line    </description>
+    </item>
+    
+    <item>
+      <title>14. Get Back to Normal Mode</title>
+      <link>http://example.org/docs/tip14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip14/</guid>
+      <description>14. Get Back to Normal Mode #  Three ways back to NORMAL MODE
+   Keystrokes Effect     &amp;lt;Esc&amp;gt; swap to NORMAL MODE   &amp;lt;C-[&amp;gt; swap to NORMAL MODE   &amp;lt;C-o&amp;gt; swap to INSERT-NORMAL MODE    </description>
+    </item>
+    
+    <item>
+      <title>15. Paste from a Register Without Leaving Insert Mode</title>
+      <link>http://example.org/docs/tip15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip15/</guid>
+      <description>15. Paste from a Register Without Leaving Insert Mode #  First, use y copy some words into the copy register, then change the mode from NORMAL to INSERT mode, now you can use &amp;lt;C-r&amp;gt;0 to paste the words in the copy register to the file, the command &amp;lt;C-r&amp;gt;0 may cause line break, you can use &amp;lt;C-r&amp;gt;&amp;lt;C-p&amp;gt;{register}.</description>
+    </item>
+    
+    <item>
+      <title>16.Do Back-of-the-Envelope Calculations in Place</title>
+      <link>http://example.org/docs/tip16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip16/</guid>
+      <description>16.Do Back-of-the-Envelope Calculations in Place #  INSERT MODE run the below command &amp;lt;C-r&amp;gt;=1*3&amp;lt;Enter&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>17. Insert Unusual Characters by Character Code</title>
+      <link>http://example.org/docs/tip17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip17/</guid>
+      <description>17. Insert Unusual Characters by Character Code #     Keystrokes Effect     &amp;lt;C-v&amp;gt;{123} Insert character by decimal code   &amp;lt;C-v&amp;gt;u{1234} Insert character by hexadecimal code   &amp;lt;C-v&amp;gt;{nondigit} Insert nondigit literally   &amp;lt;C-k&amp;gt;{char1}{char2} Insert character represented by {char1}{char2} digraph    </description>
+    </item>
+    
+    <item>
+      <title>18. Insert Unusual Characters by Digraph</title>
+      <link>http://example.org/docs/tip18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip18/</guid>
+      <description>18. Insert Unusual Characters by Digraph #  run :digraphs and :h digraph-table</description>
+    </item>
+    
+    <item>
+      <title>19. Overwrite Existing Text with Replace Mode</title>
+      <link>http://example.org/docs/tip19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip19/</guid>
+      <description>19. Overwrite Existing Text with Replace Mode #  Press R can let you go to REPLACE MODE;Press r can make you replace one char and go back to NORMAL MODE.
+Sorry, now I don&amp;rsquo;t know how to use gR and gr, you can check the book by yourself.</description>
+    </item>
+    
+    <item>
+      <title>20. Grok Visual Mode</title>
+      <link>http://example.org/docs/tip20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip20/</guid>
+      <description>20. Grok Visual Mode #  In VISUAL MODE,you can use viw and c to change a word.
+&amp;lt;C-g&amp;gt; will let you switch between VISUAL MODE and SELECT MODE</description>
+    </item>
+    
+    <item>
+      <title>21. Define a Visual Selection</title>
+      <link>http://example.org/docs/tip21/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip21/</guid>
+      <description>21. Define a Visual Selection #  There are three modes for VISUAL MODE
+ v enable character-wise Visual mode
+  V enable line-wise Visual mode
+  &amp;lt;C-v&amp;gt; enable block-wise Visual mode
+ Two very helpful commands
+ gv reselect the last visual selection
+  o go to other end of highlighted text
+ </description>
+    </item>
+    
+    <item>
+      <title>22. Repeat Line-Wise Visual Commands</title>
+      <link>http://example.org/docs/tip22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip22/</guid>
+      <description>22. Repeat Line-Wise Visual Commands #  You can also repeat the VISUAL command with the ..</description>
+    </item>
+    
+    <item>
+      <title>23. Prefer Operators to Visual Commands Where Possible</title>
+      <link>http://example.org/docs/tip23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip23/</guid>
+      <description>23. Prefer Operators to Visual Commands Where Possible #  Because the visual command will appear some magic thing.Like the book said that vitU can just repeat the same length chars in VISUAL command, but the gUit can repeat the whole word in NORMAL command.</description>
+    </item>
+    
+    <item>
+      <title>24. Edit Tabular Data with Visual-Block Mode</title>
+      <link>http://example.org/docs/tip24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip24/</guid>
+      <description>24. Edit Tabular Data with Visual-Block Mode #  When you use VISUAL-BLOCK MODE, you can change the text by column.Try use &amp;lt;C-v&amp;gt; to select several columns, then run r|, you can see the | on the selected columns.</description>
+    </item>
+    
+    <item>
+      <title>25. Change Columns of Text</title>
+      <link>http://example.org/docs/tip25/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip25/</guid>
+      <description>25. Change Columns of Text #  When you use &amp;lt;C-v&amp;gt; select several places, then use c and some words you want, finally input &amp;lt;Esc&amp;gt;, all selected places will be changed.</description>
+    </item>
+    
+    <item>
+      <title>26. Append After a Ragged Visual Block</title>
+      <link>http://example.org/docs/tip26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip26/</guid>
+      <description>26. Append After a Ragged Visual Block #  If you want to add something on some ragged lines.You can use &amp;lt;C-v&amp;gt; to select the line you want to add, then input $A, now you can input whatever you want.</description>
+    </item>
+    
+    <item>
+      <title>27.Meet Vim’s Command Line</title>
+      <link>http://example.org/docs/tip27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip27/</guid>
+      <description>27.Meet Vim’s Command Line #  You can change to COMMAND MODE by :
+   Command Effect     :[range]delete [x] Delete specified lines [into register x]   :[range]yank [x] Yank specified lines [into register x]   :[line]put [x] Put the text from register x after the specified line   :[range]copy {address} Copy the specified lines to below the line specified by {address}   :[range]move {address} Move the specified lines to below the line specified by {address}   :[range]join Join the specified lines   :[range]normal {commands} Execute Normal mode {commands} on each speci- fied line   :[range]substitute/{pat- tern}/{string}/[flags] Replace occurrences of {pattern} with {string} on each specified line   :[range]global/{pattern}/[cmd] Execute the Ex command [cmd] on all specified lines where the {pattern} matches    </description>
+    </item>
+    
+    <item>
+      <title>28. Execute a Command on One or More Consecutive Lines</title>
+      <link>http://example.org/docs/tip28/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip28/</guid>
+      <description>28. Execute a Command on One or More Consecutive Lines #  You can specify the lines by giving a [range] before the command.The range can be a line number, a mark, or a pattern.
+:2,5p Print the 2~5 lines
+:&#39;&amp;lt;,&#39;&amp;gt;p Use VISUAL MODE to select some lines, then press :, you will see &#39;&amp;lt;,&#39;&amp;gt; in the command line, and press p will print all the selected lines
+:/&amp;lt;html&amp;gt;/,/&amp;lt;\/html&amp;gt;/p It will print all the words between &amp;lt;html&amp;gt; and &amp;lt;/html&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands</title>
+      <link>http://example.org/docs/tip29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip29/</guid>
+      <description>29. Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands #   :[range]copy {address}
+ You can copy command to copy lines
+   Command Effect     :6t. Copy line 6 to just below the current line   :t6 Copy the current line to just below line 6   :t. Duplicate the current line (similar to Normal mode yyp)   :t$ Copy the current line to the end of the file   :&amp;lsquo;&amp;lt;,&amp;lsquo;&amp;gt;t0 Copy the visually selected lines to the start of the file     :[range]move {address}</description>
+    </item>
+    
+    <item>
+      <title>30. Run Normal Mode Commands Across a Range</title>
+      <link>http://example.org/docs/tip30/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip30/</guid>
+      <description>30. Run Normal Mode Commands Across a Range #  normal command can make you can let you run NORMAL MODE command across a range.
+:&#39;&amp;lt;,&#39;&amp;gt;normal . Like above command, you can repeat last modification on selected area.</description>
+    </item>
+    
+    <item>
+      <title>31. Repeat the Last Ex Command</title>
+      <link>http://example.org/docs/tip31/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip31/</guid>
+      <description>31. Repeat the Last Ex Command #  @: can repeat last command in the COMMAND MODE, like . which can repeat the last change in the NORMAL MODE.</description>
+    </item>
+    
+    <item>
+      <title>32. Tab-Complete Your Ex Commands</title>
+      <link>http://example.org/docs/tip32/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip32/</guid>
+      <description>32. Tab-Complete Your Ex Commands #  You can use &amp;lt;Tab&amp;gt; to complete your Ex command.(I don&amp;rsquo;t think that this is a tip, lol).</description>
+    </item>
+    
+    <item>
+      <title>33. Insert the Current Word at the Command Prompt</title>
+      <link>http://example.org/docs/tip33/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip33/</guid>
+      <description>33. Insert the Current Word at the Command Prompt #  &amp;lt;C-r&amp;gt;&amp;lt;C-w&amp;gt; Can do this job.</description>
+    </item>
+    
+    <item>
+      <title>34. Recall Commands from History</title>
+      <link>http://example.org/docs/tip34/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip34/</guid>
+      <description>34. Recall Commands from History #  &amp;lt;Up&amp;gt; and &amp;lt;Down&amp;gt; can use to recall commands, also &amp;lt;C-p&amp;gt; and &amp;lt;C-n&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>35. Run Commands in the Shell</title>
+      <link>http://example.org/docs/tip35/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip35/</guid>
+      <description>35. Run Commands in the Shell #  If you want to run shell command in the Vim, you can add one ! before the command which one you want to run in vim COMMAND MODE.
+&amp;lt;Ctrl-z&amp;gt; can suspend the vim process, fg can make it run in the frontground again.
+:shell,This one can start a shell.</description>
+    </item>
+    
+    <item>
+      <title>36. Track Open Files with the Buffer List</title>
+      <link>http://example.org/docs/tip36/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip36/</guid>
+      <description>36. Track Open Files with the Buffer List #  ls can show you the buffer list.
+:bprevious, :bnext, :bfirst, :blast can navgate the buffer list.
+:bdelete can delete the file in the buffer list.</description>
+    </item>
+    
+    <item>
+      <title>37. Group Buffers into a Collection with the Argument List</title>
+      <link>http://example.org/docs/tip37/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip37/</guid>
+      <description>37. Group Buffers into a Collection with the Argument List #  args {arglist} can use to fill the argument list, then you can use argdo to execute command for every file in the list.
+for {arglist}, you can use glob mode(like **/*.js) or command(should be inside the backtick characters).</description>
+    </item>
+    
+    <item>
+      <title>38. Manage Hidden Files</title>
+      <link>http://example.org/docs/tip38/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip38/</guid>
+      <description>38. Manage Hidden Files #     Command Effect     :w[rite] Write the contents of the buffer to disk   :e[dit]! Read the file from disk back into the buffer (that is, revert changes)   :qa[ll]! Close all windows, discarding changes without warning   :wa[ll] Write all modified buffers to disk    </description>
+    </item>
+    
+    <item>
+      <title>39. Divide Your Workspace into Split Windows</title>
+      <link>http://example.org/docs/tip39/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip39/</guid>
+      <description>39. Divide Your Workspace into Split Windows #     Command Effect     &amp;lt;C-w&amp;gt;s Split the current window horizontally, reusing the current buffer in the new window   &amp;lt;C-w&amp;gt;v Split the current window vertically, reusing the current buffer in the new window   :sp[lit] {file} Split the current window horizontally, loading {file} into the new window   :vsp[lit] {file} Split the current window vertically, loading {file} into the new window   &amp;lt;C-w&amp;gt;w Cycle between open windows   &amp;lt;C-w&amp;gt;h Focus the window to the left   &amp;lt;C-w&amp;gt;j Focus the window below   &amp;lt;C-w&amp;gt;k Focus the window above   &amp;lt;C-w&amp;gt;l Focus the window to the right   &amp;lt;C-w&amp;gt;= Equalize width and height of all windows   &amp;lt;C-w&amp;gt;_ Maximize height of the active window   &amp;lt;C-w&amp;gt;| Maximize width of the active window   [N]&amp;lt;C-w&amp;gt;_ Set active window height to [N] rows   [N]&amp;lt;C-w&amp;gt;| Set active window width to [N] columns       Ex Command Normal Command Effect     :cl[ose] &amp;lt;C-w&amp;gt;c Close the active window   :on[ly] &amp;lt;C-w&amp;gt;o Keep only the active window, closing all others    </description>
+    </item>
+    
+    <item>
+      <title>40.Organize Your Window Layouts with Tab Pages</title>
+      <link>http://example.org/docs/tip40/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip40/</guid>
+      <description>40.Organize Your Window Layouts with Tab Pages #     Command Effect     :tabe[dit] {filename} Open {filename} in a new tab   &amp;lt;C-w&amp;gt;T Move the current window into its own tab   :tabc[lose] Close the current tab page and all of its windows   :tabo[nly] Keep the active tab page, closing all others       Ex Command Normal Command Effect     :tabn[ext] {N} {N}gt Switch to tab page number {N}   :tabn[ext] gt Switch to the next tab page   :tabp[revious] gT Switch to the previous tab page    </description>
+    </item>
+    
+    <item>
+      <title>41. Open a File by Its Filepath Using ‘:edit’</title>
+      <link>http://example.org/docs/tip41/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip41/</guid>
+      <description>41. Open a File by Its Filepath Using ‘:edit’ #  :edit {file} This command can help you to open file.The file can be absolute path or relative path.</description>
+    </item>
+    
+    <item>
+      <title>42. Open a File by Its Filename Using ‘:find’</title>
+      <link>http://example.org/docs/tip42/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip42/</guid>
+      <description>42. Open a File by Its Filename Using ‘:find’ #  :find command can let us open a file by file name, but you don&amp;rsquo;t need to input full path of the file.Ha, wait, you need to set the path selection first. when you set path like path=/code/files/mvc, now you can find the file by :find {filename}.You also can set many path, use path+={path}</description>
+    </item>
+    
+    <item>
+      <title>43. Explore the File System with netrw</title>
+      <link>http://example.org/docs/tip43/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip43/</guid>
+      <description>43. Explore the File System with netrw #  netrw can help you manage your file system,but you need to set set nocompatible and filetype plugin on in you .vimrc file.
+:Explore or :E can open the current directory,the netrw also provide :Sexplore and :Vexplore to open the file in a other window.
+In the netrw mode, you can use % create a new file, d create a new directory, R rename the file/directory under the cursor and D delete the file/directory under the cursor.</description>
+    </item>
+    
+    <item>
+      <title>44. Save Files to Nonexistent Directories</title>
+      <link>http://example.org/docs/tip44/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip44/</guid>
+      <description>44. Save Files to Nonexistent Directories #  For example, you open a file by :e madeup/test.md, but the madeup directory doesn&amp;rsquo;t exists, you will get error like Can&#39;t open file for writing, because you don&amp;rsquo;t have the madeup.What should i do?Fortunately, you can run :!mkdir -p %:h first to create the directory, then :w can works well.</description>
+    </item>
+    
+    <item>
+      <title>45. Save a File as the Super User</title>
+      <link>http://example.org/docs/tip45/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip45/</guid>
+      <description>45. Save a File as the Super User #  :w !sudo tee % &amp;gt; /dev/null This comand can make you change the readonly file.</description>
+    </item>
+    
+    <item>
+      <title>46. Keep Your Fingers on the Home Row</title>
+      <link>http://example.org/docs/tip46/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip46/</guid>
+      <description>46. Keep Your Fingers on the Home Row #  Use h, j, k, l to move the cursor,which will make you move faster than the arrow key.</description>
+    </item>
+    
+    <item>
+      <title>47. Distinguish Between Real Lines and Display Lines</title>
+      <link>http://example.org/docs/tip47/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip47/</guid>
+      <description>47. Distinguish Between Real Lines and Display Lines #  When the line is too long,vim will use two or more lines to display it, whick is display lines. Its different from the real lines.
+The command j can move to the next real line, gj can move to the next display line. All commands related to real line can add g in the front of the command and make it act on display line.</description>
+    </item>
+    
+    <item>
+      <title>48. Move Word-Wise</title>
+      <link>http://example.org/docs/tip48/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip48/</guid>
+      <description>48. Move Word-Wise #  move between word #     Command Move Cursor     w Forward to start of next word   b Backward to start of current/previous word   e Forward to end of current/next word   ge Backward to end of previous word    move between WORD #  W,B,E,gE related to the word motion.
+word definition</description>
+    </item>
+    
+    <item>
+      <title>49. Find by Character</title>
+      <link>http://example.org/docs/tip49/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip49/</guid>
+      <description>49. Find by Character #  Search in the current line.
+   Command Effect     f{char} Forward to the next occurrence of {char}   F{char} Backward to the previous occurrence of {char}   t{char} Forward to the character before the next occurrence of {char}   T{char} Backward to the character after the previous occurrence of {char}   ; Repeat the last character-search command   , Reverse the last character-search command    </description>
+    </item>
+    
+    <item>
+      <title>50. Search to Navigate</title>
+      <link>http://example.org/docs/tip50/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip50/</guid>
+      <description>50. Search to Navigate #  Vim can let move through the search.
+/takes&amp;lt;CR&amp;gt; This command will move your cursor to the takes text if it exists in the current file.After that you can use n to repeat the search and N to reverse the search.</description>
+    </item>
+    
+    <item>
+      <title>51. Trace Your Selection with Precision Text Objects</title>
+      <link>http://example.org/docs/tip51/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip51/</guid>
+      <description>51. Trace Your Selection with Precision Text Objects #     Text Object Selection     a) or ab A pair of (parentheses)   i) or ib Inside of (parentheses)   a} or aB A pair of {braces}   i} or iB Inside of {braces}   a] A pair of [brackets]   i] Inside of [brackets]   a&amp;gt; 　A pair of &amp;lt;angle brackets&amp;gt;   i&amp;gt; Inside of &amp;lt;angle brackets&amp;gt;   a’ A pair of &amp;lsquo;single quotes&amp;rsquo;   i’ Inside of &amp;lsquo;single quotes&amp;rsquo;   a&amp;quot; A pair of &amp;ldquo;double quotes&amp;rdquo;   i&amp;quot; Inside of &amp;ldquo;double quotes&amp;rdquo;   a A pair of backticks   i Inside of backticks   at A pair of &amp;lt;xml&amp;gt;tags&amp;lt;/xml&amp;gt;   it Inside of &amp;lt;xml&amp;gt;tags&amp;lt;/xml&amp;gt;    </description>
+    </item>
+    
+    <item>
+      <title>52. Delete Around, or Change Inside</title>
+      <link>http://example.org/docs/tip52/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip52/</guid>
+      <description>52. Delete Around, or Change Inside #     Keystrokes Buffer Contents     w Current word   aw Current word plus one space   iW Current WORD   aW Current WORD plus one space   is Current sentence   as Current sentence plus one space   ip Current paragraph   ap Current paragraph plus one blank line    d{motion} work well with aw, as and ap</description>
+    </item>
+    
+    <item>
+      <title>53. Mark Your Place and Snap Back to It</title>
+      <link>http://example.org/docs/tip53/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip53/</guid>
+      <description>53. Mark Your Place and Snap Back to It #   m{a-zA-Z}
+ m and another char can use to mark the current cursor position,then you can ``{mark}` go back to that line wherever you are.
+vim also provide some automatic mark.
+   Keystrokes Buffer Contents     `` | Position before the last jump within current file |    `. | Location of last change|    `^ | Location of last insertion|    `[ | Start of last change or yank|    `] | End of last change or yank|    `&amp;lt; | Start of last visual selection|    `&amp;gt; | End of last visual selection|     I think that i won&amp;rsquo;t use them at any time, hahaha, it&amp;rsquo;s too difficult to remember them.</description>
+    </item>
+    
+    <item>
+      <title>54. Jump Between Matching Parentheses</title>
+      <link>http://example.org/docs/tip54/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip54/</guid>
+      <description>54. Jump Between Matching Parentheses #   The % command lets us jump between opening and closing sets of parentheses (see :h % ). It works with () , {} , and [].
+ </description>
+    </item>
+    
+    <item>
+      <title>55. Traverse the Jump List</title>
+      <link>http://example.org/docs/tip55/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip55/</guid>
+      <description>55. Traverse the Jump List #  &amp;lt;C-o&amp;gt; can go back to last jump, &amp;lt;C-i&amp;gt; can forward to the next jump. They like the back button and forward button when you use browser.</description>
+    </item>
+    
+    <item>
+      <title>56. Traverse the Change List</title>
+      <link>http://example.org/docs/tip56/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip56/</guid>
+      <description>56. Traverse the Change List #  :changes can use to see the change list of the current file.And you can use g; and g, to move between these change list.</description>
+    </item>
+    
+    <item>
+      <title>57. Jump to the Filename Under the Cursor</title>
+      <link>http://example.org/docs/tip57/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip57/</guid>
+      <description>57. Jump to the Filename Under the Cursor #  gf can let you do things like the title said. Sometimes you need to set the file extension, use :set suffixesadd+=.{file extension},you also can use set path to decide which path you want the gf command to search.</description>
+    </item>
+    
+    <item>
+      <title>58. Snap Between Files Using Global Marks</title>
+      <link>http://example.org/docs/tip58/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip58/</guid>
+      <description>58. Snap Between Files Using Global Marks #  m{Upper char} command set a global,when you scan in another file,suddenly you want to go back to the marked file, you just need to call \{Upper char}`.</description>
+    </item>
+    
+    <item>
+      <title>59. Delete, Yank, and Put with Vim’s Unnamed Register</title>
+      <link>http://example.org/docs/tip59/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip59/</guid>
+      <description>59. Delete, Yank, and Put with Vim’s Unnamed Register #  xp can transpose the next two characters.
+ddp transpose the order of this line and its successor.
+yyp copy and paste the currnt line after the current line.
+All your operation will be saved to unnamed register if you don&amp;rsquo;t specify the register.</description>
+    </item>
+    
+    <item>
+      <title>60. Grok Vim’s Registers</title>
+      <link>http://example.org/docs/tip60/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip60/</guid>
+      <description>60. Grok Vim’s Registers #  &amp;quot;{register} can specify which register you want to use.
+&amp;quot;&amp;quot; is unnamed register.
+&amp;quot;0 is copy register for y{motion}.
+&amp;quot;a – &amp;quot;z is named register.
+&amp;quot;_ is black hole register,which won&amp;rsquo;t save operation.
+&amp;quot;+ can get the content from system clipboard.
+&amp;quot;* can put things into the system clipboard.
+&amp;quot;= register can use to do some computation.
+   Register Contents     &amp;quot;% Name of the current file   &amp;quot;# Name of the alternate file   &amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>61. Replace a Visual Selection with a Register</title>
+      <link>http://example.org/docs/tip61/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip61/</guid>
+      <description>61. Replace a Visual Selection with a Register #  In the VISUAL MODE,you can selection some words, then use p to replace them with the content in the copy register.</description>
+    </item>
+    
+    <item>
+      <title>62. Paste from a Register</title>
+      <link>http://example.org/docs/tip62/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip62/</guid>
+      <description>62. Paste from a Register #  If register is Character-wise Regions,command p paste the text after the cursor, P paste it before the cursor.
+If register is Line-Wise Regions, the content will be add to the last row or next row.
+In INSERT MODE,we also can use &amp;lt;C-r&amp;gt;{register} to add the Character-wise Regions.</description>
+    </item>
+    
+    <item>
+      <title>63. Interact with the System Clipboard</title>
+      <link>http://example.org/docs/tip63/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip63/</guid>
+      <description>63. Interact with the System Clipboard #  When you copy content from system clipboard to vim, you should set :set paster before you do it,which will keep the original, including the tabs or spaces.Or use &amp;quot;+p to do the copy.</description>
+    </item>
+    
+    <item>
+      <title>64. Record and Execute a Macro</title>
+      <link>http://example.org/docs/tip64/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip64/</guid>
+      <description>64. Record and Execute a Macro #  q{register} begin to record macro, after you do some operation, you can call q to stop record.Next time you can use @{register} to repeat the macro content,@@ repeat the last operating macro.</description>
+    </item>
+    
+    <item>
+      <title>65. Normalize, Strike, Abort</title>
+      <link>http://example.org/docs/tip65/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip65/</guid>
+      <description>65. Normalize, Strike, Abort #  You should make sure that every command in the macro can be repeated.</description>
+    </item>
+    
+    <item>
+      <title>66. play back with a count</title>
+      <link>http://example.org/docs/tip66/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip66/</guid>
+      <description>66. play back with a count #  You can use command like {number}@{register} to repeat act the macro {number} times.</description>
+    </item>
+    
+    <item>
+      <title>67. Repeat a Change on Contiguous Lines</title>
+      <link>http://example.org/docs/tip67/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip67/</guid>
+      <description>67. Repeat a Change on Contiguous Lines #  There are two methods to do this stuff.
+1.Execute macro in series by {number}@{register}.
+2.Execute macro in parallel by :&#39;&amp;lt;,&#39;&amp;gt;normal @{register}.</description>
+    </item>
+    
+    <item>
+      <title>68. Append Commands to a Macro</title>
+      <link>http://example.org/docs/tip68/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip68/</guid>
+      <description>68. Append Commands to a Macro #  :reg {register} can check what content in the register.
+Sometimes you forget a command when record a macro,you can record it again by the Upper char.For example, qa{command}q record the macro in a,then you can use qA{new command}a to append commmands to the a macro.</description>
+    </item>
+    
+    <item>
+      <title>69. Act Upon a Collection of Files</title>
+      <link>http://example.org/docs/tip69/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip69/</guid>
+      <description>69. Act Upon a Collection of Files #  args {files&#39; name} can open a arguments list and argdo normal @{macro char} can execute the macro in all files in the arguments list.Be careful!,before you run argdo normal @{macro char}, you should run :edit! first, which will exclude macro effect in the current file. You also can use the {number}@{register} to do this stuff,but in the macro,you should include :next at then end of macro.</description>
+    </item>
+    
+    <item>
+      <title>70. Evaluate an Iterator to Number Items in a List</title>
+      <link>http://example.org/docs/tip70/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip70/</guid>
+      <description>70. Evaluate an Iterator to Number Items in a List #  An example:
+:let i=1 qa I&amp;lt;C-r&amp;gt;=i&amp;lt;CR&amp;gt;)&amp;lt;Esc&amp;gt; :let i += 1 q After you record the macro,you can use VISUAL MODE to select all lines you want to act this and call it.</description>
+    </item>
+    
+    <item>
+      <title>71. Edit the Contents of a Macro</title>
+      <link>http://example.org/docs/tip71/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip71/</guid>
+      <description>71. Edit the Contents of a Macro #  If you want to edit the content in the register,you can use :put {register} to put the content into the vim,then edit it,finally 0&amp;quot;{register}y$dd can put it back to the register.</description>
+    </item>
+    
+    <item>
+      <title>72. Tune the Case Sensitivity of Search Patterns</title>
+      <link>http://example.org/docs/tip72/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip72/</guid>
+      <description>72. Tune the Case Sensitivity of Search Patterns #  \c(case unsensitivity) and \C(case sensitivity) can cover the default set.If you don&amp;rsquo;t like them, you can put these two lines in your.vimrc file, which are very sweat for search.
+set ignorecase set smartcase </description>
+    </item>
+    
+    <item>
+      <title>73. Use the \v Pattern Switch for Regex Searches</title>
+      <link>http://example.org/docs/tip73/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip73/</guid>
+      <description>73. Use the \v Pattern Switch for Regex Searches #  When you use regex search, you can put \v before the pattern, so you don&amp;rsquo;t need to transfer the special char in the pattern,no backslash make it more readable, right?
+No \v
+/#\([0-9a-fA-F]\{6}\|[0-9a-fA-F]\{3}\) Include\v
+/\v#([0-9a-fA-F]{6}|[0-9a-fA-F]{3}) </description>
+    </item>
+    
+    <item>
+      <title>74. Use the \V Literal Switch for Verbatim Searches</title>
+      <link>http://example.org/docs/tip74/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip74/</guid>
+      <description>74. Use the \V Literal Switch for Verbatim Searches #  Just like the title said,use \V in your search pattern to make it search literally.</description>
+    </item>
+    
+    <item>
+      <title>75. Use Parentheses to Capture Submatches</title>
+      <link>http://example.org/docs/tip75/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip75/</guid>
+      <description>75. Use Parentheses to Capture Submatches #  An example:
+/\v&amp;lt;(\w+)\_s+\1&amp;gt; \1 will reuse the rule in (\w+).</description>
+    </item>
+    
+    <item>
+      <title>76. Stake the Boundaries of a Word</title>
+      <link>http://example.org/docs/tip76/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip76/</guid>
+      <description>76. Stake the Boundaries of a Word #  &amp;lt;{word}&amp;gt; will just match the {word}.
+For example:
+the problem with these new recruits is that This line /&amp;lt;the&amp;gt; just match the first word the,but /the will match the and these</description>
+    </item>
+    
+    <item>
+      <title>77. Stake the Boundaries of a Match</title>
+      <link>http://example.org/docs/tip77/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip77/</guid>
+      <description>77. Stake the Boundaries of a Match #  \zs and \ze can handle this stuff.These two command make just highlight the words you want.\zs for start and \ze for end.
+An example:
+Practical Vim Command /Practical \zsVim&amp;lt;CR&amp;gt; will highlight the Vim.</description>
+    </item>
+    
+    <item>
+      <title>78. Escape Problem Characters</title>
+      <link>http://example.org/docs/tip78/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip78/</guid>
+      <description>78. Escape Problem Characters #   Escape / Characters When Searching Forward
+  Escape ? Characters When Searching Backward
+  Escape \ Characters Every Time
+ You also can use funciton to do the escape:
+escape({string}, {chars}) &amp;ldquo;The {chars} argument specifies which characters must be escaped with a backslash.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>79. Meet the Search Command</title>
+      <link>http://example.org/docs/tip79/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip79/</guid>
+      <description>79. Meet the Search Command #  /{search text} is search command
+   Command Effect     n Jump to next match, preserving direction and offset   N Jump to previous match, preserving direction and offset   / Jump forward to next match of same pattern   ? Jump backward to previous match of same pattern    </description>
+    </item>
+    
+    <item>
+      <title>80. Highlight Search Matches</title>
+      <link>http://example.org/docs/tip80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip80/</guid>
+      <description>80. Highlight Search Matches #  set hlsearch You also can forbid it:
+set nohlsearch </description>
+    </item>
+    
+    <item>
+      <title>81. Preview the First Match Before Execution</title>
+      <link>http://example.org/docs/tip81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip81/</guid>
+      <description>81. Preview the First Match Before Execution #  set incsearch Use this can achieve the target.
+When you search in vim,you can use &amp;lt;C-r&amp;gt;&amp;lt;C-w&amp;gt; to autocomplete the search word except you use \v in the command,which will make the &amp;lt;C-r&amp;gt;&amp;lt;C-w&amp;gt; command operation looks weird.</description>
+    </item>
+    
+    <item>
+      <title>82. Count the Matches for the Current Pattern</title>
+      <link>http://example.org/docs/tip82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip82/</guid>
+      <description>82. Count the Matches for the Current Pattern #  :%s///gn That&amp;rsquo;s it.</description>
+    </item>
+    
+    <item>
+      <title>83. Offset the Cursor to the End of a Search Match</title>
+      <link>http://example.org/docs/tip83/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip83/</guid>
+      <description>83. Offset the Cursor to the End of a Search Match #  /{search word}/e Happy with Vim</description>
+    </item>
+    
+    <item>
+      <title>84. Operate on a Complete Search Match</title>
+      <link>http://example.org/docs/tip84/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip84/</guid>
+      <description>84. Operate on a Complete Search Match #  An example:
+1.First, /\vX(ht)?ml\C match the words(there is Xml or Xhtml) you want.
+2.Second, {command}//e can use {command} to operate the matched words.</description>
+    </item>
+    
+    <item>
+      <title>85. Create Complex Patterns by Iterating upon Search History</title>
+      <link>http://example.org/docs/tip85/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip85/</guid>
+      <description>85. Create Complex Patterns by Iterating upon Search History #  q/ can summon the command-line window and you can edit command in that window,after you finish it,just press &amp;lt;CR&amp;gt; to operate it.</description>
+    </item>
+    
+    <item>
+      <title>86. Search for the Current Visual Selection</title>
+      <link>http://example.org/docs/tip86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip86/</guid>
+      <description>86. Search for the Current Visual Selection #  Plugin &#39;https://github.com/nelstrom/vim-visual-star-search&#39; Put this line in your .vimrc file,then run :PluginInstall,that&amp;rsquo;s it.</description>
+    </item>
+    
+    <item>
+      <title>87. Meet the Substitute Command]</title>
+      <link>http://example.org/docs/tip87/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip87/</guid>
+      <description>87. Meet the Substitute Command] #  :[range]s[ubstitute]/{pattern}/{string}/[flags]  The substitute command allows us to find and replace one chunk of text with another.
+ Some flags show below:
+ 1.The g flag makes the substitute command act globally.
+  2.The c flag gives us the opportunity to confirm or reject each change.
+  3.The n flag suppresses the usual substitute behavior.
+  4.The &amp;amp; flag simply tells Vim to reuse the same flags from the previous substitute command.</description>
+    </item>
+    
+    <item>
+      <title>88. Find and Replace Every Match in a File</title>
+      <link>http://example.org/docs/tip88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip88/</guid>
+      <description>88. Find and Replace Every Match in a File #  See the command again:
+ :[range]s[ubstitute]/{pattern}/{string}/[flags]
+ If you want your command run like the title said,you can add % in the [range] part and add g in the [flags] part.</description>
+    </item>
+    
+    <item>
+      <title>89. Eyeball Each Substitution</title>
+      <link>http://example.org/docs/tip89/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip89/</guid>
+      <description>89. Eyeball Each Substitution #  See the command.
+ :[range]s[ubstitute]/{pattern}/{string}/[flags]
+ You just need to add c in the [flags] part,then every time when you want to execute the replacement,you will get the info like this in the command part:
+y/n/a/q/l/^E/^Y    Trigger Effect     y Substitute this match   n Skip this match   q Quit substituting   l &amp;ldquo;last&amp;rdquo;—Substitute this match, then quit   a &amp;ldquo;all&amp;rdquo;-Substitute this and any remaining matches    Scroll the screen up    Scroll the screen down    </description>
+    </item>
+    
+    <item>
+      <title>90. Reuse the Last Search Pattern</title>
+      <link>http://example.org/docs/tip90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip90/</guid>
+      <description>90. Reuse the Last Search Pattern #   :[range]s[ubstitute]/{pattern}/{string}/[flags]
+ You can reuse last search pattern by empty the {pattern} part when you do a new substitue call.
+You also can fill last used pattern by &amp;lt;C-r&amp;gt;/.</description>
+    </item>
+    
+    <item>
+      <title>91. Replace with the Contents of a Register</title>
+      <link>http://example.org/docs/tip91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip91/</guid>
+      <description>91. Replace with the Contents of a Register #   :[range]s[ubstitute]/{pattern}/{string}/[flags]
+ In {string} part,you can use &amp;lt;C-r&amp;gt;{register} or \=@{regsiter} to fill it with the content of a register.</description>
+    </item>
+    
+    <item>
+      <title>92. Repeat the Previous Substitute Command](tips/tip.md)</title>
+      <link>http://example.org/docs/tip92/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip92/</guid>
+      <description>92. Repeat the Previous Substitute Command](tips/tip.md) #  Execute in whole file,you can use g&amp;amp; repeat the previous substitute command.
+ :&amp;amp;&amp;amp; replay the substitution in current line.
+  :&amp;lsquo;&amp;lt;,&amp;lsquo;&amp;gt;&amp;amp;&amp;amp; acts on the visual selection.
+  :%&amp;amp;&amp;amp; acts on the entire file,like g&amp;amp;.
+ </description>
+    </item>
+    
+    <item>
+      <title>93. Rearrange CSV Fields Using Submatches</title>
+      <link>http://example.org/docs/tip93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip93/</guid>
+      <description>93. Rearrange CSV Fields Using Submatches #  ({pattern}) is a submatche,you can use \{num} to index it.</description>
+    </item>
+    
+    <item>
+      <title>94. Perform Arithmetic on the Replacement</title>
+      <link>http://example.org/docs/tip94/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip94/</guid>
+      <description>94. Perform Arithmetic on the Replacement #  An example in the book,downgrade the number of h element:
+&amp;lt;h2&amp;gt;Heading number 1&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;Number 2 heading&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;Another heading&amp;lt;/h4&amp;gt; Command one:
+/\v\&amp;lt;\/?h\zs\d This command will match the number in the h element.
+:%s//\=submatch(0)-1/g This command,// match last used pattern,submatch(0) will get the value of match.</description>
+    </item>
+    
+    <item>
+      <title>95. Swap Two or More Words</title>
+      <link>http://example.org/docs/tip95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip95/</guid>
+      <description>95. Swap Two or More Words #  Try vim-abolish</description>
+    </item>
+    
+    <item>
+      <title>96. Find and Replace Across Multiple Files</title>
+      <link>http://example.org/docs/tip96/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip96/</guid>
+      <description>96. Find and Replace Across Multiple Files #  We need a plugin for this.
+An examle in the book,replace Pragmatic with Practical in all the project files:
+/Pragmatic\ze Vim :vimgrep /&amp;lt;C-r&amp;gt;// **/*.txt :Qargs :argdo %s//Practical/g :argdo update vimgrep will put all the matched file into the quickfix list. Qargs will put all files in the quickfix list into the arguments list.</description>
+    </item>
+    
+    <item>
+      <title>97. Meet the Global Command</title>
+      <link>http://example.org/docs/tip97/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip97/</guid>
+      <description>97. Meet the Global Command #   :[range] global[!] /{pattern}/ [cmd]
+ The global command will execute for the whole file if there is no [range].</description>
+    </item>
+    
+    <item>
+      <title>98. Delete Lines Containing a Pattern</title>
+      <link>http://example.org/docs/tip98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip98/</guid>
+      <description>98. Delete Lines Containing a Pattern #  :g/{pattern}/d delete all the matched lines;:v/{pattern}/d keep all the matched lines.</description>
+    </item>
+    
+    <item>
+      <title>99. Collect TODO Items in a Register</title>
+      <link>http://example.org/docs/tip99/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip99/</guid>
+      <description>99. Collect TODO Items in a Register #  Two commands.
+ qaq
+ Eempty the register
+ :g/TODO/yank A
+ </description>
+    </item>
+    
+    <item>
+      <title>100. Alphabetize the Properties of Each Rule in a CSS File</title>
+      <link>http://example.org/docs/tip100/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip100/</guid>
+      <description>100. Alphabetize the Properties of Each Rule in a CSS File #  Understand the command:
+:g/{start}/ .,{finish} [cmd] </description>
+    </item>
+    
+    <item>
+      <title>101. Meet ctags</title>
+      <link>http://example.org/docs/tip101/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip101/</guid>
+      <description>101. Meet ctags #  Install Exuberant Ctags on your operating system,then use ctags {files} to generate the tags.</description>
+    </item>
+    
+    <item>
+      <title>102. Configure Vim to Work with ctags</title>
+      <link>http://example.org/docs/tip102/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip102/</guid>
+      <description>102. Configure Vim to Work with ctags #  Set the tags path to let vim know where is the tag file.Default tags path is current directory and projet root directory.
+Generate the tags file:
+1.Generate it manually.
+:!ctags -R :nnoremap &amp;lt;f5&amp;gt; :!ctags -R&amp;lt;CR&amp;gt; 2.Generate it when save file.
+:autocmd BufWritePost * call system(&amp;quot;ctags -R&amp;quot;) 3.Work with version control system. Effortless Ctags with Git</description>
+    </item>
+    
+    <item>
+      <title>103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands</title>
+      <link>http://example.org/docs/tip103/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip103/</guid>
+      <description>103. Navigate Keyword Definitions with Vim’s Tag Navigation Commands #  &amp;lt;C-]&amp;gt; can jump to a keyword definition.
+   Command Effect     &amp;lt;C-]&amp;gt; Jump to the first tag that matches the word under the cursor   g&amp;lt;C-]&amp;gt; Prompt user to select from multiple matches for the word under the cursor. If only one match exists, jump to it without prompting.   :tag {keyword} Jump to the first tag that matches {keyword}   :tjump {keyword} Prompt user to select from multiple matches for {keyword}.</description>
+    </item>
+    
+    <item>
+      <title>104. Compile Code Without Leaving Vim</title>
+      <link>http://example.org/docs/tip104/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip104/</guid>
+      <description>104. Compile Code Without Leaving Vim #  Run :make in the vim command.</description>
+    </item>
+    
+    <item>
+      <title>105. Browse the Quickfix List</title>
+      <link>http://example.org/docs/tip105/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip105/</guid>
+      <description>105. Browse the Quickfix List #     Command Action     :cnext Jump to next item   :cprev Jump to previous item   :cfirst Jump to first item   :clast Jump to last item   :cnfile Jump to first item in next file   :cpfile Jump to last item in previous file   :cc N Jump to nth item   :copen Open the quickfix window   :cclose Close the quickfix window    </description>
+    </item>
+    
+    <item>
+      <title>106. Recall Results from a Previous Quickfix List</title>
+      <link>http://example.org/docs/tip106/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip106/</guid>
+      <description>106. Recall Results from a Previous Quickfix List #  Run :colder.</description>
+    </item>
+    
+    <item>
+      <title>107. Customize the External Compiler</title>
+      <link>http://example.org/docs/tip107/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip107/</guid>
+      <description>107. Customize the External Compiler #  You just need to know that vim can call whatever compiler you want him to do.</description>
+    </item>
+    
+    <item>
+      <title>108. Call grep Without Leaving Vim</title>
+      <link>http://example.org/docs/tip108/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip108/</guid>
+      <description>108. Call grep Without Leaving Vim #  You can run :grep in the vim command.</description>
+    </item>
+    
+    <item>
+      <title>109. Customize the grep Program</title>
+      <link>http://example.org/docs/tip109/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip109/</guid>
+      <description>109. Customize the grep Program #  Defaut grep config is:
+grepprg=&amp;quot;grep -n $* /dev/null&amp;quot; grepformat=&amp;quot;%f:%l:%m,%f:%l%m,%f %l%m&amp;quot; You can modify them to customize the grep program.</description>
+    </item>
+    
+    <item>
+      <title>111. Meet Vim’s Keyword Autocompletion</title>
+      <link>http://example.org/docs/tip111/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip111/</guid>
+      <description>111. Meet Vim’s Keyword Autocompletion #     Command Type of Completion     &amp;lt;C-n&amp;gt; Generic keywords   &amp;lt;C-x&amp;gt;&amp;lt;C-n&amp;gt; Current buffer keywords   &amp;lt;C-x&amp;gt;&amp;lt;C-i&amp;gt; Included file keywords   &amp;lt;C-x&amp;gt;&amp;lt;C-]&amp;gt; tags file keywords   &amp;lt;C-x&amp;gt;&amp;lt;C-k&amp;gt; Dictionary lookup   &amp;lt;C-x&amp;gt;&amp;lt;C-l&amp;gt; Whole line completion   &amp;lt;C-x&amp;gt;&amp;lt;C-f&amp;gt; Filename completion   &amp;lt;C-x&amp;gt;&amp;lt;C-o&amp;gt; Omni-completion    </description>
+    </item>
+    
+    <item>
+      <title>112. Work with the Autocomplete Pop-Up Menu</title>
+      <link>http://example.org/docs/tip112/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip112/</guid>
+      <description>112. Work with the Autocomplete Pop-Up Menu #     Keystrokes Effect     &amp;lt;C-n&amp;gt; Use the next match from the word list (next match)   &amp;lt;C-p&amp;gt; Use the previous match from the word list (previous match)   &amp;lt;Down&amp;gt; Select the next match from the word list   &amp;lt;Up&amp;gt; Select the previous match from the word list   &amp;lt;C-y&amp;gt; Accept the currently selected match (yes)   &amp;lt;C-e&amp;gt; Revert to the originally typed text (exit from autocompletion)   &amp;lt;C-h&amp;gt; (and &amp;lt;BS&amp;gt;) Delete one character from current match   &amp;lt;C-l&amp;gt; Add one character from current match   {char} Stop completion and insert {char}    </description>
+    </item>
+    
+    <item>
+      <title>113. Understand the Source of Keywords</title>
+      <link>http://example.org/docs/tip113/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip113/</guid>
+      <description>113. Understand the Source of Keywords #  The keywords come from The Buffer List, The Buffer List and Tag Files.</description>
+    </item>
+    
+    <item>
+      <title>114. Autocomplete Words from the Dictionary</title>
+      <link>http://example.org/docs/tip114/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip114/</guid>
+      <description>114. Autocomplete Words from the Dictionary #  &amp;lt;C-x&amp;gt;&amp;lt;C-k&amp;gt; You need to supply Vim with a suitable word list.Easy way to do this is `:set spell``</description>
+    </item>
+    
+    <item>
+      <title>115. Autocomplete Entire Lines</title>
+      <link>http://example.org/docs/tip115/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip115/</guid>
+      <description>115. Autocomplete Entire Lines #  &amp;lt;C-x&amp;gt;&amp;lt;C-l&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>116. Autocomplete Filenames</title>
+      <link>http://example.org/docs/tip116/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip116/</guid>
+      <description>116. Autocomplete Filenames #  &amp;lt;C-x&amp;gt;&amp;lt;C-f&amp;gt; Notice: expansion related to the relative path.</description>
+    </item>
+    
+    <item>
+      <title>117. Autocomplete with Context Awareness</title>
+      <link>http://example.org/docs/tip117/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip117/</guid>
+      <description>117. Autocomplete with Context Awareness #  &amp;lt;C-x&amp;gt;&amp;lt;C-o&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>118. Spell Check Your Work</title>
+      <link>http://example.org/docs/tip118/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip118/</guid>
+      <description>118. Spell Check Your Work #  Run :set spell to enable the built-in spell checker.
+   Command Effect     ]s Jump to next spelling error   [s Jump to previous spelling error   z= Suggest corrections for current word   zg Add current word to spell file   zw Remove current word from spell file   zug Revert zg or zw command for current word    </description>
+    </item>
+    
+    <item>
+      <title>119. Use Alternate Spelling Dictionaries</title>
+      <link>http://example.org/docs/tip119/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip119/</guid>
+      <description>119. Use Alternate Spelling Dictionaries #  :set spell :set spelllang=en_us You can use :h spell-remarks to check all the lang that vim supported.</description>
+    </item>
+    
+    <item>
+      <title>120. Add Words to the Spell File</title>
+      <link>http://example.org/docs/tip120/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip120/</guid>
+      <description>120. Add Words to the Spell File #  Use spellfile option.
+An example from book:
+setlocal spelllang=en_us setlocal spellfile=~/.vim/spell/en.utf-8.add setlocal spellfile+=~/books/practical_vim/jargon.utf-8.add 2zg will add word to jargon file and 1zg will add it to default file.</description>
+    </item>
+    
+    <item>
+      <title>121. Fix Spelling Errors from Insert Mode</title>
+      <link>http://example.org/docs/tip121/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/tip121/</guid>
+      <description>121. Fix Spelling Errors from Insert Mode #  NORMAL MODE: z=
+INSERT MODE: &amp;lt;C-x&amp;gt;s</description>
+    </item>
+    
+  </channel>
+</rss>
