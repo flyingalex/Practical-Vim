@@ -2,3 +2,5 @@ baseURL = "http://vim-tips.hulin.ink"
 languageCode = "en-us"
 title = "PracticalVim"
 theme = "book"
+
+BookLogo = "logo.svg"
