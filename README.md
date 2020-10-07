@@ -2,6 +2,8 @@
 
 I read the book *[Practical Vim: Edit Text at the Speed of Thought](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275/ref=sr_1_1?ie=UTF8&qid=1488958924&sr=8-1&keywords=practical-vim)*, it's pretty awesome! so I want to do a note for this book.I will write all the tips in this article relared to the book.
 
+online book: http://vim-tips.hulin.ink
+
 Please read this article first [Seven habits of effective text editing](http://www.moolenaar.net/habits.html),which is very good for editor using.
 
 The beginner tutorial for vim, run command `vimtutor` in your terminal(install vim fisrt if you don't have this command) and have a fun.
