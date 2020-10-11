@@ -5,6 +5,9 @@ type: docs
 
 # PracticalVim
 
+# **Note:**
+## **Someone told me wrote note like this is not illegal, I am checking with the author. Will shutdown this website if author say no**
+
 I read the book *[Practical Vim: Edit Text at the Speed of Thought](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275/ref=sr_1_1?ie=UTF8&qid=1488958924&sr=8-1&keywords=practical-vim)*, it's pretty awesome! so I want to do a note for this book.I will write all the tips in this article relared to the book.
 
 Please read this article first [Seven habits of effective text editing](http://www.moolenaar.net/habits.html),which is very good for editor using.
